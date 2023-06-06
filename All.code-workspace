@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DataTidy23RozotOperatorComp"
+		},
+		{
+			"path": "../DataTidyILC"
+		},
+		{
+			"path": "../Analysis23RozotOperatorComp"
+		},
+		{
+			"path": "../AnalysisILC"
+		}
+	],
+	"settings": {}
+}
