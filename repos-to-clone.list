@@ -1,5 +1,10 @@
-SATVILab/DataTidy23RozotOperatorComp
-SATVILab/DataTidyILC
-SATVILab/Analysis23RozotOperatorComp
-SATVILab/AnalysisILC
-
+SATVILab/DataTidyACSClinical
+SATVILab/DataTidyACSCyTOFPreprocess
+SATVILab/DataTidyACSCyTOFFAUST
+SATVILab/DataTidyACSCyTOFCytokinesTCells
+SATVILab/DataTidyACSCyTOFCytokinesNKBCells
+SATVILab/DataTidyACSSoma
+SATVILab/DataTidyACSRISK6
+SATVILab/AnalysisACSCyTOFTCells
+SATVILab/AnalysisACSCyTOFNKBCells
+SATVILab/ReportACSCyTOFTCells
