@@ -3,7 +3,6 @@
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
 			"version": "4.2.3",
-			"ADDITIONALVERSIONS": "4.1.3",
 			"VSCODE_R_SUPPORT": "full",
 			"installDevTools": true,
 			"installREnv": true,
