@@ -2,9 +2,5 @@ SATVILab/DataTidyACSClinical
 SATVILab/DataTidyACSCyTOFPreprocess
 SATVILab/DataTidyACSCyTOFFAUST
 SATVILab/DataTidyACSCyTOFCytokinesTCells
-SATVILab/DataTidyACSCyTOFCytokinesNKBCells
-SATVILab/DataTidyACSSoma
-SATVILab/DataTidyACSRISK6
 SATVILab/AnalysisACSCyTOFTCells
-SATVILab/AnalysisACSCyTOFNKBCells
 SATVILab/ReportACSCyTOFTCells
