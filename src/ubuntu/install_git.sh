@@ -1,3 +1,4 @@
+#!/bin/bash
 # source: https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git
 # first install git on windows
 sudo apt-get update 
