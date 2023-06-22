@@ -6,6 +6,3 @@ sudo apt-get install -y git
 git config --global init.defaultBranch main
 # to reconcile pulls
 git config pull.ff only
-
-
-

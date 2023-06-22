@@ -13,5 +13,3 @@ WORKDIR /project/src
 
 RUN bash install_apptainer.sh
 RUN bash install_gh.sh
-
-
