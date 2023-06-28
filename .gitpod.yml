@@ -2,7 +2,7 @@ image:
     file: .gitpod.Dockerfile
 
 tasks:
-  - name: Install vscode
+  - name: Initial set-up
     command: |
         sudo apt-get install -y wget gpg
         wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -13,9 +13,5 @@ tasks:
         sudo apt-get install -y code-insiders 
         sudo apt-get install -y code 
         rm -f packages.microsoft.gpg
-  - name: Set up R
-    command: /
-        bash setup-r-min.sh 
-  - name: Clone repos
-    command: /
+        bash setup-r-min.sh
         bash clone-repos.sh
