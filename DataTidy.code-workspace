@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../DataTidyACSClinical"
+		},
+		{
+			"path": "../DataTidyACSCyTOFPreprocess"
+		},
+		{
+			"path": "../DataTidyACSCyTOFFAUST"
+		},
+		{
+			"path": "../PipelineDataACSCytokines"
+		},
+		{
+			"path": "../DataTidyACSCyTOFCytokinesTCells"
+		}
+	],
+	"settings": {}
+}

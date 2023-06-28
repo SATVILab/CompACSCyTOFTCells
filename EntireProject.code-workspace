@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../CompACSCyTOFTCells"
+		},
+		{
+			"path": "../DataTidyACSClinical"
+		},
+		{
+			"path": "../DataTidyACSCyTOFPreprocess"
+		},
+		{
+			"path": "../DataTidyACSCyTOFFAUST"
+		},
+		{
+			"path": "../PipelineDataACSCytokines"
+		},
+		{
+			"path": "../DataTidyACSCyTOFCytokinesTCells"
+		},
+		{
+			"path": "../PipelineAnalysisACS"
+		},
+		{
+			"path": "../AnalysisACSCyTOFTCells"
+		},
+		{
+			"path": "../ReportACSCyTOFTCells"
+		}
+	],
+	"settings": {}
+}
