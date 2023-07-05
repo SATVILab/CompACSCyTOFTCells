@@ -7,9 +7,12 @@ sudo apt install -y software-properties-common
 sudo add-apt-repository -y ppa:apptainer/ppa
 sudo apt update
 sudo apt install -y apptainer
-sudo add-apt-repository -y ppa:apptainer/ppa
-sudo apt update
-sudo apt install -y apptainer-suid
+# perform setuid installation if not in GitPod
+if [ -z "$(env | grep -E "^GITPOD")" ]; then
+  sudo add-apt-repository -y ppa:apptainer/ppa
+  sudo apt update
+  sudo apt install -y apptainer-suid
+fi
 
 # The if chunk below is meant to run if it's in a 
 # docker container.
@@ -22,7 +25,13 @@ if [ -f /.dockerenv ] | [ -n "$(env | grep -E "^GITPOD|^CODESPACE")" ]; then
   # source: https://carpentries-incubator.github.io/singularity-introduction/07-singularity-images-building/index.html#using-singularity-run-from-within-the-docker-container
   sudo apt-get install -y tzdata
   sudo cp /usr/share/zoneinfo/Europe/London /etc/localtime
-  # mount the workspace directory if it's not already mounted
-  grep -q "bind path = /workspace" /etc/apptainer/apptainer.conf || \
-    sudo sed -i "s|bind path = /etc/hosts|bind path = /etc/hosts\nbind path = /workspace|" /etc/apptainer/apptainer.conf
+  # mount the workspace(s) directory if it's not already mounted
+  # and usig GitPod (workspace) or Codespaces (workspaces)
+  if [ -n "$(env | grep -E "^GITPOD")" ]; then
+    grep -q "bind path = /workspace" /etc/apptainer/apptainer.conf || \
+      sudo sed -i "s|bind path = /etc/hosts|bind path = /etc/hosts\nbind path = /workspace|" /etc/apptainer/apptainer.conf
+  elif  [ -n "$(env | grep -E "^CODESPACE")" ]; then
+    grep -q "bind path = /workspaces" /etc/apptainer/apptainer.conf || \
+      sudo sed -i "s|bind path = /etc/hosts|bind path = /etc/hosts\nbind path = /workspaces|" /etc/apptainer/apptainer.conf  
+  fi   
 fi
