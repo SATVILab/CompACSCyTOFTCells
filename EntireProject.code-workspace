@@ -31,5 +31,7 @@
 			"path": "../ReportACSCyTOFTCells"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"terminal.integrated.shellIntegration.enabled": false
+	}
 }
