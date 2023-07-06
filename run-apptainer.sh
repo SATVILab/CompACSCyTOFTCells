@@ -12,7 +12,7 @@ R_LIBS=${R_LIBS:=$HOME/.local/.cache/R}
 # will have no effect
 mkdir -p $R_LIBS
 if [ -n "$(env | grep -E "^GITPOD|^CODESPACE")" ]; then
-  export RENV_CONFIG_PAK_ENABLED=TRUE
+  export RENV_CONFIG_PAK_ENABLED=${RENV_CONFIG_PAK_ENABLED:=TRUE}
 fi
 export GITHUB_PAT=${GITHUB_PAT:=$GH_TOKEN} 
 if which apptainer > /dev/null 2>&1; then
