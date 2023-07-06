@@ -13,9 +13,9 @@ R_LIBS=${R_LIBS:=$HOME/.local/.cache/R}
 mkdir -p $R_LIBS
 RENV_CONFIG_PAK_ENABLED=TRUE
 GITHUB_PAT=${GITHUB_PAT:=$GH_TOKEN} 
-if which apptainer; then
+if which apptainer > /dev/null 2>&1; then
   apptainer run ../"$comp_dir"/sif/r423.sif ${1:-code-insiders tunnel --accept-server-license-terms}
-elif which singularity; then
+elif which singularity > /dev/null 2>&1; then
   singularity run ../"$comp_dir"/sif/r423.sif ${1:-code-insiders tunnel --accept-server-license-terms}
 else
   echo "Neither singularity nor apptainer container runtime detected"
