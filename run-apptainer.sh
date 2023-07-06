@@ -11,8 +11,10 @@ R_LIBS=${R_LIBS:=$HOME/.local/.cache/R}
 # need to create the directory, as otherwise R_LIBS
 # will have no effect
 mkdir -p $R_LIBS
-RENV_CONFIG_PAK_ENABLED=TRUE
-GITHUB_PAT=${GITHUB_PAT:=$GH_TOKEN} 
+if [ -n "$(env | grep -E "^GITPOD|^CODESPACE")" ]; then
+  export RENV_CONFIG_PAK_ENABLED=TRUE
+fi
+export GITHUB_PAT=${GITHUB_PAT:=$GH_TOKEN} 
 if which apptainer > /dev/null 2>&1; then
   apptainer run ../"$comp_dir"/sif/r423.sif ${1:-code-insiders tunnel --accept-server-license-terms}
 elif which singularity > /dev/null 2>&1; then
