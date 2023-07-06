@@ -1,5 +1,5 @@
 #!/bin/bash
-FETCH_R_VERSION=430
+FETCH_R_VERSION=423
 GITHUB_OAUTH_TOKEN=$GH_TOKEN
 comp_dir=$(ls .. | grep -E "^Comp")
 mkdir -p ../"$comp_dir"/sif 
