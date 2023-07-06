@@ -13,9 +13,9 @@ R_LIBS=${R_LIBS:=$HOME/.local/.cache/R}
 mkdir -p $R_LIBS
 RENV_CONFIG_PAK_ENABLED=TRUE
 GITHUB_PAT=${GITHUB_PAT:=$GH_TOKEN} 
-if [ which apptainer ]; then
+if which apptainer; then
   container_runtime=apptainer
-elif [ which singularity ]; then
+elif which singularity; then
   container_runtime=singularity
 else
   echo "Neither singularity nor apptainer container runtime detected"
