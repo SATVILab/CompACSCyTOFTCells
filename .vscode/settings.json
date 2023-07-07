@@ -10,6 +10,7 @@
     "../**/_output/**": true,
     "../**/_archive/**": true,
     "../**/_tmp/**": true,
-    "../**/docs/**": true
+    "../**/docs/**": true,
+    "../**/renv/**": true
   }
 }
