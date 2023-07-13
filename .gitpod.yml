@@ -1,16 +1,7 @@
 image: gitpod/workspace-base
 
 tasks:
-  - name: Set-up
+  - name: Set-up R, apptainer
     command: |
-        ./scripts/ubuntu/install_apptainer.sh
-        ./scripts/ubuntu/install_gh.sh
-        ./scripts/all/setup_r.sh 
-        ./clone-repos.sh
-        export R_LIBS=${R_LIBS:=/workspace/.local/lib/R}
-        mkdir -p "$R_LIBS"
-        export RENV_PATHS_CACHE=${RENV_PATHS_CACHE:=/workspace/.local/R/lib/renv}
-        export RENV_PATHS_LIBRARY_ROOT=${RENV_PATHS_LIBRARY_ROOT:=/workspace/.local/.cache/R/renv}
-        export RENV_PATHS_LIBRARY=${RENV_PATHS_LIBRARY:=/workspace/.local/.cache/R/renv}
-        export RENV_PREFIX_AUTO=${RENV_PREFIX_AUTO:=TRUE}
-        export RENV_CONFIG_PAK_ENABLED=${RENV_CONFIG_PAK_ENABLED:=TRUE}
+        ./scripts/all/post_create_command.sh
+

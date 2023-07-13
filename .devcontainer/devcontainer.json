@@ -6,7 +6,7 @@
  */
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2.3.1-focal",
-	"postCreateCommand": "bash scripts/all/setup_r.sh && bash clone-repos.sh",
+	"postCreateCommand": "./scripts/all/post_create_command.sh",
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
 			"installDevTools": true,
