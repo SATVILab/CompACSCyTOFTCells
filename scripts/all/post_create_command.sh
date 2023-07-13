@@ -4,7 +4,7 @@
 # add config_r.sh to be sourced if 
 # it's not already present
 if ! [ -e "$HOME/.bashrc.d/config_r.sh" ]; then
-  cp .scripts/all/config_r.sh "$HOME/.bashrc.d/"
+  cp ./scripts/all/config_r.sh "$HOME/.bashrc.d/"
 fi
 if [ -n "$(env | grep -E "^GITPOD")" ]; then
   # install tools to run and download containers
