@@ -10,6 +10,6 @@ if [ -n "$(env | grep -E "^GITPOD")" ]; then
   # install tools to run and download containers
   ./scripts/ubuntu/install_apptainer.sh
   ./scripts/ubuntu/install_gh.sh
-fix
+fi
 # clone all repos
 ./clone-repos.sh
