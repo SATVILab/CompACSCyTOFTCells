@@ -18,9 +18,9 @@ fi
 # ensure that radian works (at least on ephemeral dev
 # environments)
 if [ -n "$(env | grep -E "^GITPOD|^CODESPACE")"]; then
-  if ! [ -e "~/.radian_profile" ]; then touch "~/.radian_profile"; fi
-  if [ -z $(cat "~/.radian_profile" | grep -E 'options(\s*radian\.editing_mode') ]; then 
-    echo 'options(radian.editing_mode = "vi")' >> "~/.radian_profile"
+  if ! [ -e "$HOME/.radian_profile" ]; then touch "$HOME/.radian_profile"; fi
+  if [ -z $(cat "$HOME/.radian_profile" | grep -E 'options(\s*radian\.editing_mode') ]; then 
+    echo 'options(radian.editing_mode = "vi")' >> "$HOME/.radian_profile"
   fi
 fi
 
