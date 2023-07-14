@@ -1,4 +1,4 @@
-#!|usr/bin/env bash
+#!usr/bin/env bash
 # github token
 if [ -n "$GH_TOKEN" ]; then 
   export GITHUB_PAT="${GITHUB_PAT:-"$GH_TOKEN"}"
@@ -18,9 +18,12 @@ fi
 # ensure that radian works (at least on ephemeral dev
 # environments)
 if [ -n "$(env | grep -E "^GITPOD|^CODESPACE")" ]; then
-  if ! [ -e "$HOME/.radian_profile" ]; then touch "$HOME/.radian_profile"; fi
-  if [ -z "$(cat "$HOME/.radian_profile" | grep -E 'options\(\s*radian\.editing_mode')" ]; then 
-    echo 'options(radian.editing_mode = "vi")' >> "$HOME/.radian_profile"
+  radian_profile="$HOME/.radian_profile"
+  if [ ! -e "$radian_profile" ]; then
+    touch "$radian_profile"
+  fi
+  if ! grep -qE 'options\(\s*radian\.editing_mode' "$radian_profile"; then 
+    echo 'options(radian.editing_mode = "vi")' >> "$radian_profile"
   fi
 fi
 
