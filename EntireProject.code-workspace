@@ -29,6 +29,12 @@
     },
     {
       "path": "../ReportACSCyTOFTCells"
+    },
+    {
+      "path": "../StoreACSCyTOF"
+    },
+    {
+      "path": "../StoreACSCyTOFTCells"
     }
   ],
   "settings": {
