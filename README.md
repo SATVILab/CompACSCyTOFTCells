@@ -40,25 +40,6 @@ First, you need to create the token (Getting secret) and then you need to make i
 - Paste the token into the `Value` field
   - Get this
 
-### GitPod
-
-- Open `https://gitpod.io/#https://github.com/SATVILab/CompACSCyTOFTCells`
-  - Wait for set-up to complete (including post-image creation commands)
-- Open a terminal:
-  - *Authenticate to GitHub*: Run `gh auth login`
-    - Follow instructions
-  - *Download container image*: Run `mkdir -p sif && gh release download --repo SATVILab/CompACSCyTOFTCells r423 --pattern sif --dir sif --skip-existing`
-  - *Open VS Code using a remote tunnel into container*: Run `apptainer exec sif/r423.sif code tunnel --accept-server-license-terms`
-    - Follow instructions, up until you then have a browser tab open to a VS Code instance
-- Switch to VS Code instance:
-  - Open a VS Code workspace:
-    - Press `Ctrl + Shift + P`
-    - Choose `File: Open Workspace from File...`
-    - Open workspace with repos of interest:
-      - `EntireProject.code-workspace`: Contains all repos
-      - `DataTidy.code-workspace`: Contains data-processing repos
-      - `Analysis.code-workspace`: Contains analysis repos
-
 ### GitHub Codespaces
 
 - *Open Codespace*:
