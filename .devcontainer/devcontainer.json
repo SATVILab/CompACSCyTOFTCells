@@ -3,7 +3,7 @@
 	"features": {
 		"ghcr.io/MiguelRodo/DevContainerFeatures/apptainer:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/git-xet:1": {},
-		"ghcr.io/MiguelRodo/DevContainerFeatures/mult-repos:1": {},
+		"ghcr.io/MiguelRodo/DevContainerFeatures/repos:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/config-r:1": {}
 	},
 	"customizations": {
