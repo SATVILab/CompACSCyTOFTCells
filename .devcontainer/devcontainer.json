@@ -23,12 +23,28 @@
 		"codespaces": {
 			"repositories": {
 				"SATVILab/DataTidyACSClinical": {
-					"permissions": {
-						"contents": "write",
-						"issues": "write",
-						"metadata": "read",
-						"pullRequests": "write"
-					}
+					"permissions": "write-all"
+				},
+				"SATVILab/DataTidyACSCyTOFPreprocess": {
+					"permissions": "write-all"
+				},
+				"SATVILab/DataTidyACSCyTOFFAUST": {
+					"permissions": "write-all"
+				},
+				"SATVILab/PipelineDataACSCytokines": {
+					"permissions": "write-all"
+				},
+				"SATVILab/DataTidyACSCyTOFCytokinesTCells": {
+					"permissions": "write-all"
+				},
+				"SATVILab/PipelineAnalysisACS": {
+					"permissions": "write-all"
+				},
+				"SATVILab/AnalysisACSCyTOFTCells": {
+					"permissions": "write-all"
+				},
+				"SATVILab/ReportACSCyTOFTCells": {
+					"permissions": "write-all"
 				}
 			}
 		}
