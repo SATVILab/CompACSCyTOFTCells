@@ -6,6 +6,7 @@
 		"ghcr.io/MiguelRodo/DevContainerFeatures/repos:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/config-r:1": {}
 	},
+	
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -17,6 +18,19 @@
 				"eamodio.gitlens",
 				"mathematic.vscode-pdf"
 			]
+		},
+		// Configure properties specific to Codespaces.
+		"codespaces": {
+			"repositories": {
+				"SATVILab/DataTidyACSClinical": {
+					"permissions": {
+						"contents": "write",
+						"issues": "write",
+						"metadata": "read",
+						"pullRequests": "write"
+					}
+				}
+			}
 		}
 	}
 }
