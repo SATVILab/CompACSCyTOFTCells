@@ -1,5 +1,5 @@
 {
-	"image": "ghcr.io/rocker-org/devcontainer/geospatial:4",
+	"image": "ghcr.io/rocker-org/devcontainer/geospatial:4.2",
 	"features": {
 		"ghcr.io/MiguelRodo/DevContainerFeatures/apptainer:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/git-xet:1": {},
