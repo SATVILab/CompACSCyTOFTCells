@@ -13,6 +13,9 @@
 			"path": "../DataTidyACSCyTOFFAUST"
 		},
 		{
+			"path": "../outliergatev1"
+		},
+		{
 			"path": "../PipelineDataACSCytokines"
 		},
 		{
