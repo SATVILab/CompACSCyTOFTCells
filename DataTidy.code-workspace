@@ -1,27 +1,35 @@
 {
 	"folders": [
 		{
+			"name": "CompACSCyTOFTCells",
 			"path": "."
 		},
 		{
+			"name": "DataTidyACSClinical",
 			"path": "../DataTidyACSClinical"
 		},
 		{
+			"name": "DataTidyACSCyTOFPreprocess",
 			"path": "../DataTidyACSCyTOFPreprocess"
 		},
 		{
+			"name": "DataTidyACSCyTOFFAUST",
 			"path": "../DataTidyACSCyTOFFAUST"
 		},
 		{
+			"name": "outliergatev1",
 			"path": "../outliergatev1"
 		},
 		{
-			"path": "../PipelineDataACSCytokines"
-		},
-		{
+			"name": "DataTidyACSCyTOFCytokinesTCells",
 			"path": "../DataTidyACSCyTOFCytokinesTCells"
 		},
 		{
+			"name": "PipelineDataACSCytokines",
+			"path": "../PipelineDataACSCytokines"
+		},
+		{
+			"name": "StoreACSCyTOF",
 			"path": "../StoreACSCyTOF"
 		}
 	],
