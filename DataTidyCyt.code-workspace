@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "CompACSCyTOFTCells",
+      "path": "."
+    },
+    {
+      "name": "outliergatev1",
+      "path": "../outliergatev1"
+    },
+    {
+      "name": "PipelineDataACSCytokines",
+      "path": "../PipelineDataACSCytokines"
+    },
+    {
+      "name": "DataTidyACSCyTOFCytokinesTCells",
+      "path": "../DataTidyACSCyTOFCytokinesTCells"
+    }
+  ]
+}
