@@ -17,8 +17,8 @@
 			"path": "../DataTidyACSCyTOFFAUST"
 		},
 		{
-			"name": "outliergatev1",
-			"path": "../outliergatev1"
+			"name": "stimgate",
+			"path": "../stimgate"
 		},
 		{
 			"name": "DataTidyACSCyTOFCytokinesTCells",
