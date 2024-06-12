@@ -5,12 +5,16 @@
       "path": "."
     },
     {
-      "name": "stimgate",
-      "path": "../stimgate"
+      "name": "StoreACSCyTOF",
+      "path": "../StoreACSCyTOF"
     },
     {
       "name": "PipelineDataACSCytokines",
       "path": "../PipelineDataACSCytokines"
+    },
+    {
+      "name": "stimgate",
+      "path": "../stimgate"
     },
     {
       "name": "DataTidyACSCyTOFCytokinesTCells",
