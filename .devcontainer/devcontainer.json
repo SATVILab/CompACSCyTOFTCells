@@ -12,9 +12,9 @@
 			"pakVersion": "auto",
 			"vscodeRSupport": "full",
 			"pandocVersion": "auto"
-		}
+		},
+		"ghcr.io/MiguelRodo/DevContainerFeatures/fit-sne:0": {}
 	},
-	
 	"customizations": {
 		"vscode": {
 			"extensions": [
