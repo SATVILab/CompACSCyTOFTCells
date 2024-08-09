@@ -21,20 +21,20 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set lowercase image name
+        run: echo "IMAGE_NAME=ghcr.io/${{ github.repository }}" | tr '[:upper:]' '[:lower:]' | tee -a $GITHUB_ENV
+
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/${{ github.repository | toLower }}
-          cacheFrom: ghcr.io/${{ github.repository | toLower  }}
+          imageName: ${{ env.IMAGE_NAME }}
+          cacheFrom: ${{ env.IMAGE_NAME }}
 
       - name: Update or create prebuild/devcontainer.json
         run: |
           # Define the paths
           DEVCONTAINER_JSON=".devcontainer/devcontainer.json"
           PREBUILD_JSON=".devcontainer/prebuild/devcontainer.json"
-
-          # Determine the image name
-          IMAGE_NAME="ghcr.io/${{ github.repository | toLower }}
 
           # Create the prebuild directory if it doesn't exist
           mkdir -p "$(dirname "$PREBUILD_JSON")"
