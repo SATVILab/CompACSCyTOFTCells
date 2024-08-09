@@ -30,6 +30,10 @@ jobs:
           imageName: ${{ env.IMAGE_NAME }}
           cacheFrom: ${{ env.IMAGE_NAME }}
 
+      - name: Debug IMAGE_NAME
+        run: |
+          echo "IMAGE_NAME is set to: $IMAGE_NAME"
+
       - name: Update or create prebuild/devcontainer.json
         run: |
           # Define the paths
