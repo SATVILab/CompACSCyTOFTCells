@@ -18,4 +18,3 @@ jobs:
         with:
           imageName: ghcr.io/satvilab/compacscytoftcells
           cacheFrom: ghcr.io/satvilab/compacscytoftcells
-          refFilterForPush: main
