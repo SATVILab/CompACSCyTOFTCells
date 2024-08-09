@@ -13,8 +13,7 @@
 			"vscodeRSupport": "full",
 			"pandocVersion": "auto"
 		},
-		"ghcr.io/MiguelRodo/DevContainerFeatures/fit-sne:1": {},
-		"ghcr.io/MiguelRodo/DevContainerFeatures/container:0": {}
+		"ghcr.io/MiguelRodo/DevContainerFeatures/fit-sne:1": {}
 	},
 	"customizations": {
 		"vscode": {
