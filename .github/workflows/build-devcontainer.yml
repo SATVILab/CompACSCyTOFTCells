@@ -59,5 +59,12 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add .devcontainer/prebuild/devcontainer.json
-          git commit -m "Update prebuild devcontainer.json with the latest image"
-          git push
+
+          # Check if there is anything to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update prebuild devcontainer.json with the latest image"
+            git push
+          fi
+
