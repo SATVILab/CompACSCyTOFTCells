@@ -22,17 +22,19 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set lowercase image name
-        run: echo "IMAGE_NAME=ghcr.io/${GITHUB_REPOSITORY}" | tr '[:upper:]' '[:lower:]' | tee -a $GITHUB_ENV
+        run: echo "IMAGE_NAME=ghcr.io/${GITHUB_REPOSITORY,,}" >> $GITHUB_ENV
+
+      - name: Debug IMAGE_NAME
+        run: |
+          echo "IMAGE_NAME is set to: $IMAGE_NAME"
+        env:
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
 
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
           imageName: ${{ env.IMAGE_NAME }}
           cacheFrom: ${{ env.IMAGE_NAME }}
-
-      - name: Debug IMAGE_NAME
-        run: |
-          echo "IMAGE_NAME is set to: $IMAGE_NAME"
 
       - name: Update or create prebuild/devcontainer.json
         run: |
@@ -57,6 +59,8 @@ jobs:
               exit 1
             fi
           fi
+        env:
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
 
       - name: Commit and push changes
         run: |
@@ -71,3 +75,5 @@ jobs:
             git commit -m "Update prebuild devcontainer.json with the latest image"
             git push
           fi
+        env:
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
