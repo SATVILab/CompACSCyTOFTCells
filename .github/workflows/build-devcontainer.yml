@@ -1,10 +1,7 @@
-name: Pre-build Dev Container
+name: 'Pre-build Dev Container'
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
   workflow_dispatch:
@@ -14,10 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout (GitHub)
+        uses: actions/checkout@v3
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
           imageName: ghcr.io/SATVILab/CompACSCyTOFTCells
           cacheFrom: ghcr.io/SATVILab/CompACSCyTOFTCells
           refFilterForPush: main
-          eventFilterForPush: main
