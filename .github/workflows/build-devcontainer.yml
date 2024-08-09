@@ -24,5 +24,5 @@ jobs:
       - name: Pre-build dev container image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/satvilab/compacscytoftcells
-          cacheFrom: ghcr.io/satvilab/compacscytoftcells
+          imageName: ghcr.io/${{ github.repository }}
+          cacheFrom: ghcr.io/${{ github.repository }}
