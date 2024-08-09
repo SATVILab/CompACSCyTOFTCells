@@ -43,10 +43,10 @@ jobs:
           if [ -f "$PREBUILD_JSON" ]; then
             jq --arg image "$IMAGE_NAME" '.image = $image' "$PREBUILD_JSON" > temp.json && mv temp.json "$PREBUILD_JSON"
           else
-            # If prebuild/devcontainer.json doesn't exist, copy customizations and set the image
+            # If prebuild/devcontainer.json doesn't exist, copy only the customizations and set the image
             if [ -f "$DEVCONTAINER_JSON" ]; then
               jq --arg image "$IMAGE_NAME" \
-                '.image = $image | .customizations = .customizations' \
+                '{image: $image, customizations: .customizations}' \
                 "$DEVCONTAINER_JSON" > "$PREBUILD_JSON"
             else
               echo "No devcontainer.json found to copy customizations from!"
