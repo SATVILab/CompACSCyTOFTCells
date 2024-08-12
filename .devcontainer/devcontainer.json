@@ -14,7 +14,8 @@
 			"pandocVersion": "auto"
 		},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/fit-sne:1": {},
-		"ghcr.io/MiguelRodo/DevContainerFeatures/container:0": {}
+		"ghcr.io/MiguelRodo/DevContainerFeatures/container:0": {},
+		"ghcr.io/devcontainers/features/aws-cli:1": {}
 	},
 	"customizations": {
 		"vscode": {
