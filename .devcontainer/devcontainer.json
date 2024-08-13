@@ -7,6 +7,7 @@
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
 			"installDevTools": true,
 			"installREnv": true,
+			"installRMarkdown": true,
 			"installRadian": true,
 			"version": "none",
 			"pakVersion": "auto",
@@ -15,7 +16,10 @@
 		},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/fit-sne:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/container:0": {},
-		"ghcr.io/devcontainers/features/aws-cli:1": {}
+		"ghcr.io/devcontainers/features/aws-cli:1": {
+			"version": "latest"
+		},
+		"ghcr.io/guiyomh/features/vim:0": {}
 	},
 	"customizations": {
 		"vscode": {
