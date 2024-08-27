@@ -13,8 +13,20 @@
       "path": "../stimgate"
     },
     {
+      "name": "StoreACSCyTOF",
+      "path": "../StoreACSCyTOF"
+    },
+    {
       "name": "DataTidyACSCyTOFCytokinesTCells",
       "path": "../DataTidyACSCyTOFCytokinesTCells"
     }
-  ]
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/StoreACSCyTOF": true
+    },
+    "search.exclude": {
+      "**/StoreACSCyTOF": true
+    }
+  }
 }
