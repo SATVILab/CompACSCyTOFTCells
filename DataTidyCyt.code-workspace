@@ -22,9 +22,6 @@
     }
   ],
   "settings": {
-    "files.exclude": {
-      "**/StoreACSCyTOF": true
-    },
     "search.exclude": {
       "**/StoreACSCyTOF": true
     }
