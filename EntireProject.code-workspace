@@ -39,5 +39,10 @@
     {
       "path": "../StoreACSCyTOFTCells"
     }
-  ]
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/StoreACSCyTOF": true
+    }
+  }
 }
