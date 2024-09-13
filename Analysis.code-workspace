@@ -4,10 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../PipelineAnalysisACS"
+			"path": "../DataTidyACSCyTOFCytokinesTCells"
 		},
 		{
-			"path": "../DataTidyACSCyTOFCytokinesTCells"
+			"path": "../PipelineAnalysisACS"
 		},
 		{
 			"path": "../AnalysisACSCyTOFTCells"
