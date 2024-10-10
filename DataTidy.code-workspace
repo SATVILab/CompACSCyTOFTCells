@@ -35,7 +35,54 @@
 	],
   "settings": {
     "search.exclude": {
-      "**/StoreACSCyTOF": true
-    }
+      "../StoreACSCyTOF": true
+    },
+		{
+			"folders": [
+				{
+					"name": "CompACSCyTOFTCells",
+					"path": "."
+				},
+				{
+					"name": "DataTidyACSClinical",
+					"path": "../DataTidyACSClinical"
+				},
+				{
+					"name": "DataTidyACSCyTOFPreprocess",
+					"path": "../DataTidyACSCyTOFPreprocess"
+				},
+				{
+					"name": "DataTidyACSCyTOFFAUST",
+					"path": "../DataTidyACSCyTOFFAUST"
+				},
+				{
+					"name": "stimgate",
+					"path": "../stimgate"
+				},
+				{
+					"name": "DataTidyACSCyTOFCytokinesTCells",
+					"path": "../DataTidyACSCyTOFCytokinesTCells"
+				},
+				{
+					"name": "PipelineDataACSCytokines",
+					"path": "../PipelineDataACSCytokines"
+				},
+				{
+					"name": "StoreACSCyTOF",
+					"path": "../StoreACSCyTOF"
+				}
+			],
+			"settings": {
+				"search.exclude": {
+					"../StoreACSCyTOF": true
+				},
+        "git.repositoryScanIgnoredFolders": [
+					"../StoreACSCyTOF/**",
+					"../StoreACSCyTOF/DataTidyACSCyTOFCytokinesTCells/**",
+					"../StoreACSCyTOF/DataTidyACSCyTOFFAUST/**",
+					"../StoreACSCyTOF/DataTidyACSCyTOFPreprocess/**"
+			]
+			}
+		}
   }
 }

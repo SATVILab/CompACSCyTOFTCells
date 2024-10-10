@@ -24,6 +24,12 @@
   "settings": {
     "search.exclude": {
       "**/StoreACSCyTOF": true
-    }
+    },
+    "git.repositoryScanIgnoredFolders": [
+      "../StoreACSCyTOF/**"
+    ],
+    "git.ignoredRepositories": [
+      "../StoreACSCyTOF/**"
+    ]
   }
 }
