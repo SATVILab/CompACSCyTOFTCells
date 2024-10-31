@@ -1,7 +1,6 @@
 {
 	"image": "bioconductor/bioconductor_docker:RELEASE_3_16",
 	"features": {
-		"ghcr.io/MiguelRodo/DevContainerFeatures/git-xet:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/repos:1": {},
 		"ghcr.io/MiguelRodo/DevContainerFeatures/config-r:1": {},
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
