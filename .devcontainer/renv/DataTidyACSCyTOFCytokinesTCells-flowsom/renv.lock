@@ -3403,13 +3403,14 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.10",
-      "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
-      "Requirements": [
-        "utils"
-      ],
-      "Hash": "d0387d5687ec933dd7587efd4cfa2d85"
+      "Version": "1.0.11.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
+      "RemoteRef": "main",
+      "RemoteSha": "b531b0215fa8edcd80a05af22ec0f85a4dcb027a"
     },
     "reshape": {
       "Package": "reshape",

@@ -1,7 +1,9 @@
 {
   "name": "Modified Rocker Dev Container",
   "build": {
-    "dockerfile": "Dockerfile.bioc",
+    "dockerfile": "Dockerfile.biocR_BASE_DIR=$(dirname $(dirname "$R_PATH"))
+    RENVSITE="$R_BASE_DIR/lib/R/etc/Renviron.site"
+		",
     "context": ".."
   },
   "features": {
