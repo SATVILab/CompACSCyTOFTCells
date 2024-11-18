@@ -33,6 +33,10 @@
       {
         "Name": "PPM",
         "URL": "https://packagemanager.posit.co/cran/latest"
+      },
+      {
+        "Name": "RSPM",
+        "URL": "https://packagemanager.posit.co/cran/latest"
       }
     ]
   },
@@ -44,14 +48,14 @@
       "Package": "AsioHeaders",
       "Version": "1.22.1-2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Hash": "85bf3bd8fa58da21a22d84fd4f4ef0a8"
     },
     "BH": {
       "Package": "BH",
       "Version": "1.84.0-0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "a8235afbcd6316e6e91433ea47661013"
     },
     "Biobase": {
@@ -83,7 +87,7 @@
       "Package": "BiocManager",
       "Version": "1.30.25",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
@@ -148,7 +152,7 @@
       "Package": "DBI",
       "Version": "1.2.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
@@ -161,14 +165,14 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSClinical",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSClinical",
+      "RemoteRepo": "DataTidyACSClinical",
+      "RemoteRef": "main",
       "RemoteSha": "cfc10d76d16a0986bb136e7ba376c3cdec0f356d",
       "Requirements": [
         "R"
       ],
-      "Hash": "822c204a5d94552e0aa5e7d8c76d5f63"
+      "Hash": "bf8bde432fea05534fac5a602b4e8af2"
     },
     "DataTidyACSCyTOFCytokinesNKBCells": {
       "Package": "DataTidyACSCyTOFCytokinesNKBCells",
@@ -176,28 +180,28 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSCyTOFCytokinesNKBCells",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSCyTOFCytokinesNKBCells",
+      "RemoteRepo": "DataTidyACSCyTOFCytokinesNKBCells",
+      "RemoteRef": "main",
       "RemoteSha": "8e64e06c0f13dfb7c90caba50d1be11d92f80692",
       "Requirements": [
         "R",
         "here",
         "magrittr"
       ],
-      "Hash": "7c08400db356d16fa20423565f0275c7"
+      "Hash": "531e9ac315335dc51206998c4797698a"
     },
     "DataTidyACSCyTOFCytokinesTCells": {
       "Package": "DataTidyACSCyTOFCytokinesTCells",
-      "Version": "0.0.6-1",
+      "Version": "0.3.0-2",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSCyTOFCytokinesTCells",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSCyTOFCytokinesTCells",
-      "RemoteSha": "71495c1ea76d2a3a73c70ec61822425e509c9043",
-      "Hash": "06a3539443227302eade65c6d049696d"
+      "RemoteRepo": "DataTidyACSCyTOFCytokinesTCells",
+      "RemoteRef": "main",
+      "RemoteSha": "240042cb6d545e09efd03dd166e208877686e595",
+      "Hash": "454e05de9720e60f0cf068dd2f3558d6"
     },
     "DataTidyACSCyTOFFAUST": {
       "Package": "DataTidyACSCyTOFFAUST",
@@ -205,14 +209,14 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSCyTOFFAUST",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSCyTOFFAUST",
+      "RemoteRepo": "DataTidyACSCyTOFFAUST",
+      "RemoteRef": "main",
       "RemoteSha": "d5508e0595af2fe5220b70d5c8f48f4bf2ad7b0e",
       "Requirements": [
         "R"
       ],
-      "Hash": "d31da4dc56756088b51a03ecf1fd84e9"
+      "Hash": "22edce98e134ce21f4c2970f2ec322f1"
     },
     "DataTidyACSPepSeq": {
       "Package": "DataTidyACSPepSeq",
@@ -220,14 +224,14 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSPepSeq",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSPepSeq",
+      "RemoteRepo": "DataTidyACSPepSeq",
+      "RemoteRef": "main",
       "RemoteSha": "0585bac70608c8a17e55ef3632e442b956ae7ad7",
       "Requirements": [
         "R"
       ],
-      "Hash": "b67faa95b3d0cdd41dc3f377a5452502"
+      "Hash": "9714371bf42cca1bb492c411f21292d5"
     },
     "DataTidyACSRISK6": {
       "Package": "DataTidyACSRISK6",
@@ -235,14 +239,14 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSRISK6",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSRISK6",
+      "RemoteRepo": "DataTidyACSRISK6",
+      "RemoteRef": "main",
       "RemoteSha": "1fcb6d73efeeda44fe5233054a95dd3b77c7591c",
       "Requirements": [
         "R"
       ],
-      "Hash": "9e3ce71bb540fcc1a9d57c8484922e57"
+      "Hash": "e423312b5d9b51a4f172f1e2c70c326b"
     },
     "DataTidyACSSinghania": {
       "Package": "DataTidyACSSinghania",
@@ -250,14 +254,14 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSSinghania",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSSinghania",
+      "RemoteRepo": "DataTidyACSSinghania",
+      "RemoteRef": "main",
       "RemoteSha": "479dac7e9d083c6ca74bbeeb1ecef6f776edb237",
       "Requirements": [
         "R"
       ],
-      "Hash": "7b4550e0ea8d12f618b68c2e619fb112"
+      "Hash": "c6518a535da9f40e829a51c36fc70d83"
     },
     "DataTidyACSSoma": {
       "Package": "DataTidyACSSoma",
@@ -265,20 +269,20 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DataTidyACSSoma",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/DataTidyACSSoma",
-      "RemoteSha": "751333bb68c03aeba3a4123ddf47630b0bb42fc9",
+      "RemoteRepo": "DataTidyACSSoma",
+      "RemoteRef": "main",
+      "RemoteSha": "b5e162af15632d6e70491bb652d0ab1b0ab2ffc6",
       "Requirements": [
         "R"
       ],
-      "Hash": "6d3ff060c7ab6b8c8a3f0839ef69ca89"
+      "Hash": "1379c9847fa6b4c0b51af691b5cd7733"
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-58.3",
+      "Version": "7.3-58.1",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "grDevices",
@@ -287,13 +291,13 @@
         "stats",
         "utils"
       ],
-      "Hash": "9586b552d57f5516fe4d25398c1bacd6"
+      "Hash": "762e1804143a332333c054759f89a706"
     },
     "Matrix": {
       "Package": "Matrix",
-      "Version": "1.5-4",
+      "Version": "1.5-3",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "graphics",
@@ -303,7 +307,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "e779c7d9f35cc364438578f334cffee2"
+      "Hash": "4006dffe49958d2dd591c17e61e60591"
     },
     "PipelineAnalysisACS": {
       "Package": "PipelineAnalysisACS",
@@ -311,8 +315,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "PipelineAnalysisACS",
       "RemoteUsername": "SATVILab",
+      "RemoteRepo": "PipelineAnalysisACS",
+      "RemoteRef": "main",
       "RemoteSha": "892bc0567f0e9e05178a03f7b257a7a67cf5e2aa",
       "Requirements": [
         "cowplot",
@@ -327,13 +332,13 @@
         "stringr",
         "tidyr"
       ],
-      "Hash": "c5dd7fee26bfac3f621ee64a3b3378e7"
+      "Hash": "6a973fd7405b111ba49d574a6a2adce1"
     },
     "R.cache": {
       "Package": "R.cache",
       "Version": "0.16.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -348,7 +353,7 @@
       "Package": "R.methodsS3",
       "Version": "1.8.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "utils"
@@ -357,22 +362,22 @@
     },
     "R.oo": {
       "Package": "R.oo",
-      "Version": "1.26.0",
+      "Version": "1.27.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R.methodsS3",
         "methods",
         "utils"
       ],
-      "Hash": "4fed809e53ddb5407b3da3d0f572e591"
+      "Hash": "6ac79ff194202248cf946fe3a5d6d498"
     },
     "R.utils": {
       "Package": "R.utils",
       "Version": "2.12.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -387,7 +392,7 @@
       "Package": "R6",
       "Version": "2.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -397,7 +402,7 @@
       "Package": "RColorBrewer",
       "Version": "1.1-3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -411,14 +416,14 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.13",
+      "Version": "1.0.13-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "methods",
         "utils"
       ],
-      "Hash": "f27411eb6d9c3dada5edd444b8416675"
+      "Hash": "6b868847b365672d6c1677b1608da9ed"
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
@@ -438,7 +443,7 @@
       "Package": "RcppEigen",
       "Version": "0.3.4.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -446,6 +451,20 @@
         "utils"
       ],
       "Hash": "4ac8e423216b8b70cb9653d1b3f71eb9"
+    },
+    "Rdpack": {
+      "Package": "Rdpack",
+      "Version": "2.6.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "methods",
+        "rbibutils",
+        "tools",
+        "utils"
+      ],
+      "Hash": "a9e2118c664c2cd694f03de074e8d4b3"
     },
     "Rhdf5lib": {
       "Package": "Rhdf5lib",
@@ -474,7 +493,7 @@
       "Package": "TMB",
       "Version": "1.9.15",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "Matrix",
         "R",
@@ -492,9 +511,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "UtilsCompassSV",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/UtilsCompassSV",
+      "RemoteRepo": "UtilsCompassSV",
+      "RemoteRef": "master",
       "RemoteSha": "cc412b856a9754d15266edc7d3cc4a92cf2c39c1",
       "Requirements": [
         "COMPASS",
@@ -509,7 +528,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "a02b8e06a30cf4709e64a672261a4906"
+      "Hash": "fc791b240added7490b34899c49bdb32"
     },
     "UtilsCytoRSV": {
       "Package": "UtilsCytoRSV",
@@ -517,9 +536,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "UtilsCytoRSV",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/UtilsCytoRSV",
+      "RemoteRepo": "UtilsCytoRSV",
+      "RemoteRef": "main",
       "RemoteSha": "d7e3ff298e2979d88b4458589e187ed9302322c8",
       "Requirements": [
         "R",
@@ -530,7 +549,7 @@
         "stringr",
         "tibble"
       ],
-      "Hash": "206f11988e1a522e0e4b4b41fd3199b7"
+      "Hash": "ee6408ad96f4d23a0f8a062a582c9dec"
     },
     "UtilsDataRSV": {
       "Package": "UtilsDataRSV",
@@ -538,9 +557,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "UtilsDataRSV",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/UtilsDataRSV",
+      "RemoteRepo": "UtilsDataRSV",
+      "RemoteRef": "main",
       "RemoteSha": "c7018542b8a4739faf68d06ec617310f5b1f57c2",
       "Requirements": [
         "dplyr",
@@ -549,20 +568,19 @@
         "stringr",
         "tibble"
       ],
-      "Hash": "32477ca330be3aefd64baeb923d1e3e6"
+      "Hash": "ade526b737112cbc356ec61b65543ccd"
     },
     "UtilsGGSV": {
       "Package": "UtilsGGSV",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "UtilsGGSV",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/UtilsGGSV",
-      "RemoteSha": "27cb948740bfd92c01688274cd13083acccbb0f6",
+      "RemoteRepo": "UtilsGGSV",
+      "RemoteRef": "main",
+      "RemoteSha": "0b3a731c09f4530a8d2bc05a3071761ce5a55ead",
       "Requirements": [
-        "R",
         "cowplot",
         "dplyr",
         "ggplot2",
@@ -572,35 +590,35 @@
         "scales",
         "tibble"
       ],
-      "Hash": "d1892f237aa71093f17b7f75b06c47a6"
+      "Hash": "efd39ba2c5972bfffbae3891c911072d"
     },
     "abind": {
       "Package": "abind",
-      "Version": "1.4-5",
+      "Version": "1.4-8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods",
         "utils"
       ],
-      "Hash": "4f57884290cc75ab22f4af9e9d4ca862"
+      "Hash": "2288423bb0f20a457800d7fc47f6aa54"
     },
     "askpass": {
       "Package": "askpass",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "sys"
       ],
-      "Hash": "cad6cf7f1d5f6e906700b9d3e718c796"
+      "Hash": "c39f4155b3ceb1a9a2799d700fbd4b6a"
     },
     "backports": {
       "Package": "backports",
       "Version": "1.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -610,7 +628,7 @@
       "Package": "base64enc",
       "Version": "0.1-3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -620,7 +638,7 @@
       "Package": "base64url",
       "Version": "1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "backports"
       ],
@@ -628,9 +646,9 @@
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.40",
+      "Version": "0.41",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "htmltools",
@@ -641,13 +659,13 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "896a79478a50c78fb035a37148638f4e"
+      "Hash": "d8b74e267a5774ded5c91786d6d777bb"
     },
     "boot": {
       "Package": "boot",
       "Version": "1.3-31",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "graphics",
@@ -659,14 +677,14 @@
       "Package": "brew",
       "Version": "1.0-10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "8f4a384e19dccd8c65356dc096847b76"
     },
     "brio": {
       "Package": "brio",
       "Version": "1.1.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -674,9 +692,9 @@
     },
     "broom": {
       "Package": "broom",
-      "Version": "1.0.6",
+      "Version": "1.0.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "backports",
@@ -690,13 +708,13 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "a4652c36d1f8abfc3ddf4774f768c934"
+      "Hash": "8fcc818f3b9887aebaf206f141437cc9"
     },
     "broom.mixed": {
       "Package": "broom.mixed",
-      "Version": "0.2.9.5",
+      "Version": "0.2.9.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "broom",
         "coda",
@@ -710,13 +728,13 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "c4e6c14e4d92d7b2d29ab0758184774a"
+      "Hash": "e27ed8cc90f6cbb7d9d42bcedf2781ff"
     },
     "bslib": {
       "Package": "bslib",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -738,7 +756,7 @@
       "Package": "cachem",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "fastmap",
         "rlang"
@@ -749,7 +767,7 @@
       "Package": "callr",
       "Version": "3.7.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -762,7 +780,7 @@
       "Package": "carData",
       "Version": "3.0-5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -772,7 +790,7 @@
       "Package": "cli",
       "Version": "3.6.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "utils"
@@ -783,7 +801,7 @@
       "Package": "clipr",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "utils"
       ],
@@ -791,9 +809,9 @@
     },
     "clue": {
       "Package": "clue",
-      "Version": "0.3-65",
+      "Version": "0.3-66",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cluster",
@@ -801,13 +819,13 @@
         "methods",
         "stats"
       ],
-      "Hash": "d6b53853800595408a776900bcc0c23f"
+      "Hash": "3604501a29faffcd155ae84c1872eaf3"
     },
     "cluster": {
       "Package": "cluster",
       "Version": "2.1.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -821,7 +839,7 @@
       "Package": "coda",
       "Version": "0.19-4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "lattice"
@@ -832,7 +850,7 @@
       "Package": "codetools",
       "Version": "0.2-20",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -842,14 +860,14 @@
       "Package": "collections",
       "Version": "0.3.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Hash": "90a0eda114ab0bef170ddbf5ef0cd93f"
     },
     "colorspace": {
       "Package": "colorspace",
       "Version": "2.1-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -861,16 +879,16 @@
     },
     "commonmark": {
       "Package": "commonmark",
-      "Version": "1.9.1",
+      "Version": "1.9.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
-      "Hash": "5d8225445acb167abf7797de48b2ee3c"
+      "Repository": "CRAN",
+      "Hash": "14eb0596f987c71535d07c3aff814742"
     },
     "cowplot": {
       "Package": "cowplot",
       "Version": "1.1.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "ggplot2",
@@ -887,7 +905,7 @@
       "Package": "cpp11",
       "Version": "0.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -897,7 +915,7 @@
       "Package": "crayon",
       "Version": "1.5.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "grDevices",
         "methods",
@@ -907,9 +925,9 @@
     },
     "credentials": {
       "Package": "credentials",
-      "Version": "2.0.1",
+      "Version": "2.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "askpass",
         "curl",
@@ -917,23 +935,23 @@
         "openssl",
         "sys"
       ],
-      "Hash": "c7844b32098dcbd1c59cbd8dddb4ecc6"
+      "Hash": "09fd631e607a236f8cc7f9604db32cb8"
     },
     "curl": {
       "Package": "curl",
-      "Version": "5.2.2",
+      "Version": "6.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "8f27335f2bcff4d6035edcc82d7d46de"
+      "Hash": "e8ba62486230951fcd2b881c5be23f96"
     },
     "cyclocomp": {
       "Package": "cyclocomp",
       "Version": "1.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "callr",
         "crayon",
@@ -957,20 +975,20 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.16.0",
+      "Version": "1.16.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "fb24e05d4a91d8b1c7ff8e284bde834a"
+      "Hash": "2e00b378fc3be69c865120d9f313039a"
     },
     "desc": {
       "Package": "desc",
       "Version": "1.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -983,7 +1001,7 @@
       "Package": "devtools",
       "Version": "2.4.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "cli",
@@ -1017,7 +1035,7 @@
       "Package": "diffobj",
       "Version": "0.3.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "crayon",
@@ -1032,7 +1050,7 @@
       "Package": "digest",
       "Version": "0.6.37",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "utils"
@@ -1043,7 +1061,7 @@
       "Package": "downlit",
       "Version": "0.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "brio",
@@ -1063,7 +1081,7 @@
       "Package": "dplyr",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -1086,7 +1104,7 @@
       "Package": "effects",
       "Version": "4.2-2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "carData",
@@ -1109,7 +1127,7 @@
       "Package": "ellipsis",
       "Version": "0.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "rlang"
@@ -1120,7 +1138,7 @@
       "Package": "estimability",
       "Version": "1.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
@@ -1129,20 +1147,19 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.24.0",
+      "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
-        "R",
-        "methods"
+        "R"
       ],
-      "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
+      "Hash": "3fd29944b231036ad67c3edb32e02201"
     },
     "fansi": {
       "Package": "fansi",
       "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -1154,14 +1171,14 @@
       "Package": "farver",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "680887028577f3fa2a81e410ed0d6e42"
     },
     "fastmap": {
       "Package": "fastmap",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "aa5e1cd11c2d15497494c5292d7ffcc8"
     },
     "flowCore": {
@@ -1190,21 +1207,21 @@
     },
     "fontawesome": {
       "Package": "fontawesome",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "htmltools",
         "rlang"
       ],
-      "Hash": "c2efdd5f0bcd1ea861c2d4e2a883a67d"
+      "Hash": "bd1297f9b5b1fc1372d19e2c4cd82215"
     },
     "forcats": {
       "Package": "forcats",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "cli",
@@ -1220,7 +1237,7 @@
       "Package": "foreach",
       "Version": "1.5.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "codetools",
@@ -1231,20 +1248,20 @@
     },
     "fs": {
       "Package": "fs",
-      "Version": "1.6.4",
+      "Version": "1.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "15aeb8c27f5ea5161f9f6a641fafd93a"
+      "Hash": "7f48af39fa27711ea5fbd183b399920d"
     },
     "furrr": {
       "Package": "furrr",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "future",
@@ -1260,7 +1277,7 @@
       "Package": "future",
       "Version": "1.34.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "digest",
         "globals",
@@ -1275,7 +1292,7 @@
       "Package": "generics",
       "Version": "0.1.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "methods"
@@ -1284,9 +1301,9 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "2.1.1",
+      "Version": "2.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "askpass",
         "credentials",
@@ -1295,13 +1312,13 @@
         "sys",
         "zip"
       ],
-      "Hash": "ab2ca7d6bd706ed218d096b7b16d7233"
+      "Hash": "ae855ad6d7be20dd7b05d43d25700398"
     },
     "ggforce": {
       "Package": "ggforce",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "MASS",
         "R",
@@ -1330,7 +1347,7 @@
       "Package": "ggplot2",
       "Version": "3.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "MASS",
         "R",
@@ -1355,7 +1372,7 @@
       "Package": "gh",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -1373,7 +1390,7 @@
       "Package": "gitcreds",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -1381,9 +1398,9 @@
     },
     "glmmTMB": {
       "Package": "glmmTMB",
-      "Version": "1.1.9",
+      "Version": "1.1.10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "Matrix",
         "R",
@@ -1393,15 +1410,16 @@
         "methods",
         "mgcv",
         "nlme",
-        "numDeriv"
+        "numDeriv",
+        "reformulas"
       ],
-      "Hash": "1d08bfb9b7130b67a81e4783a49da757"
+      "Hash": "09c1a82cf7f80e2289aaf8267345dfd1"
     },
     "globals": {
       "Package": "globals",
       "Version": "0.16.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "codetools"
@@ -1410,35 +1428,36 @@
     },
     "glue": {
       "Package": "glue",
-      "Version": "1.7.0",
+      "Version": "1.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "e0b3a53876554bd45879e596cdb10a52"
+      "Hash": "5899f1eaa825580172bb56c08266f37c"
     },
     "gtable": {
       "Package": "gtable",
-      "Version": "0.3.5",
+      "Version": "0.3.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
         "glue",
         "grid",
         "lifecycle",
-        "rlang"
+        "rlang",
+        "stats"
       ],
-      "Hash": "e18861963cbc65a27736e02b3cd3c4a0"
+      "Hash": "de949855009e2d4d0e52a844e30617ae"
     },
     "here": {
       "Package": "here",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "rprojroot"
       ],
@@ -1448,7 +1467,7 @@
       "Package": "highr",
       "Version": "0.11",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "xfun"
@@ -1459,7 +1478,7 @@
       "Package": "htmltools",
       "Version": "0.5.8.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -1475,7 +1494,7 @@
       "Package": "htmlwidgets",
       "Version": "1.6.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "grDevices",
         "htmltools",
@@ -1490,7 +1509,7 @@
       "Package": "httpgd",
       "Version": "2.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "AsioHeaders",
         "R",
@@ -1503,7 +1522,7 @@
       "Package": "httpuv",
       "Version": "1.6.15",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -1516,9 +1535,9 @@
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "1.0.3",
+      "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R6",
@@ -1533,13 +1552,13 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "10d93e97faad6b629301bb3a2fd23378"
+      "Hash": "3ef5d07ec78803475a94367d71b40c41"
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "2.0.3",
+      "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "Matrix",
         "R",
@@ -1556,33 +1575,33 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "c3b7d801d722e26e4cd888e042bf9af5"
+      "Hash": "c03878b48737a0e2da3b772d7b2e22da"
     },
     "ini": {
       "Package": "ini",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Hash": "6154ec2223172bce8162d4153cda21f7"
     },
     "insight": {
       "Package": "insight",
-      "Version": "0.20.4",
+      "Version": "0.20.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods",
         "stats",
         "utils"
       ],
-      "Hash": "8457d6e682a49f2c87b698a830527b09"
+      "Hash": "856341c90b80b78090cf2d68862102bd"
     },
     "isoband": {
       "Package": "isoband",
       "Version": "0.2.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "grid",
         "utils"
@@ -1593,7 +1612,7 @@
       "Package": "iterators",
       "Version": "1.0.14",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "utils"
@@ -1604,7 +1623,7 @@
       "Package": "jquerylib",
       "Version": "0.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "htmltools"
       ],
@@ -1612,19 +1631,19 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.8.8",
+      "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "methods"
       ],
-      "Hash": "e1b9c55281c5adc4dd113652d9e26768"
+      "Hash": "4e993b65c2c3ffbffce7bb3e2c6f832b"
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.48",
+      "Version": "1.49",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "evaluate",
@@ -1634,13 +1653,13 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "acf380f300c721da9fde7df115a5f86f"
+      "Hash": "9fcb189926d93c636dea94fbe4f44480"
     },
     "labeling": {
       "Package": "labeling",
       "Version": "0.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "graphics",
         "stats"
@@ -1651,7 +1670,7 @@
       "Package": "languageserver",
       "Version": "0.3.16",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R6",
@@ -1675,7 +1694,7 @@
       "Package": "later",
       "Version": "1.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "Rcpp",
         "rlang"
@@ -1686,7 +1705,7 @@
       "Package": "lattice",
       "Version": "0.22-6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -1701,7 +1720,7 @@
       "Package": "lazyeval",
       "Version": "0.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -1711,7 +1730,7 @@
       "Package": "lifecycle",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -1724,7 +1743,7 @@
       "Package": "lintr",
       "Version": "3.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "backports",
@@ -1745,7 +1764,7 @@
       "Package": "listenv",
       "Version": "0.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -1755,7 +1774,7 @@
       "Package": "lme4",
       "Version": "1.1-35.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "MASS",
         "Matrix",
@@ -1781,7 +1800,7 @@
       "Package": "magrittr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -1791,7 +1810,7 @@
       "Package": "matrixStats",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -1801,7 +1820,7 @@
       "Package": "memoise",
       "Version": "2.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "cachem",
         "rlang"
@@ -1812,7 +1831,7 @@
       "Package": "mgcv",
       "Version": "1.9-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -1829,7 +1848,7 @@
       "Package": "mime",
       "Version": "0.12",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "tools"
       ],
@@ -1839,7 +1858,7 @@
       "Package": "miniUI",
       "Version": "0.1.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "htmltools",
         "shiny",
@@ -1851,7 +1870,7 @@
       "Package": "minqa",
       "Version": "1.2.8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "Rcpp"
       ],
@@ -1861,7 +1880,7 @@
       "Package": "mitools",
       "Version": "2.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "DBI",
         "methods",
@@ -1875,9 +1894,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "modutils",
       "RemoteUsername": "MiguelRodo",
-      "RemotePkgRef": "MiguelRodo/modutils",
+      "RemoteRepo": "modutils",
+      "RemoteRef": "master",
       "RemoteSha": "6c3c34e18e58a84b3c60ecec010d12c1d14d1056",
       "Requirements": [
         "broom",
@@ -1886,13 +1905,13 @@
         "purrr",
         "rlang"
       ],
-      "Hash": "64939e1cec3f9928c6de8fb3529e45c6"
+      "Hash": "69a3dc47bf16bfc00508bd07f2415d0e"
     },
     "munsell": {
       "Package": "munsell",
       "Version": "0.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "colorspace",
         "methods"
@@ -1903,7 +1922,7 @@
       "Package": "nlme",
       "Version": "3.1-166",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "graphics",
@@ -1917,14 +1936,14 @@
       "Package": "nloptr",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "27550641889a3abf3aec4d91186311ec"
     },
     "nnet": {
       "Package": "nnet",
       "Version": "7.3-19",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "stats",
@@ -1936,7 +1955,7 @@
       "Package": "numDeriv",
       "Version": "2016.8-1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -1944,19 +1963,19 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.2.1",
+      "Version": "2.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "c62edf62de70cadf40553e10c739049d"
+      "Hash": "d413e0fef796c9401a4419485f709ca1"
     },
     "pander": {
       "Package": "pander",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "Rcpp",
@@ -1972,21 +1991,21 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.38.0",
+      "Version": "1.39.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "parallel",
         "tools",
         "utils"
       ],
-      "Hash": "6e8b139c1904f5e9e14c69db64453bbe"
+      "Hash": "1d60a6e27e3f1753945cf305735dda19"
     },
     "pdist": {
       "Package": "pdist",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "methods"
       ],
@@ -1996,7 +2015,7 @@
       "Package": "pillar",
       "Version": "1.9.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "cli",
         "fansi",
@@ -2015,9 +2034,9 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "pipeline",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/pipeline",
+      "RemoteRepo": "pipeline",
+      "RemoteRef": "main",
       "RemoteSha": "8ea118b58a738d1750bfca8ee120c35ce8b8b911",
       "Requirements": [
         "cowplot",
@@ -2031,13 +2050,13 @@
         "stringr",
         "tibble"
       ],
-      "Hash": "5b648819f0e441be0a8c2ab1ccd5ef45"
+      "Hash": "508868dcf39945e4a11472b165082474"
     },
     "pkgbuild": {
       "Package": "pkgbuild",
-      "Version": "1.4.4",
+      "Version": "1.4.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R6",
@@ -2046,13 +2065,13 @@
         "desc",
         "processx"
       ],
-      "Hash": "a29e8e134a460a01e0ca67a4763c595b"
+      "Hash": "30eaaab94db72652e72e3475c1b55278"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "utils"
       ],
@@ -2060,9 +2079,9 @@
     },
     "pkgdown": {
       "Package": "pkgdown",
-      "Version": "2.1.0",
+      "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "bslib",
@@ -2086,13 +2105,13 @@
         "xml2",
         "yaml"
       ],
-      "Hash": "0d3d789055c873f48521ce7e23c23f48"
+      "Hash": "df2912d5873422b55a13002510f02c9f"
     },
     "pkgload": {
       "Package": "pkgload",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2114,7 +2133,7 @@
       "Package": "plyr",
       "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "Rcpp"
@@ -2125,7 +2144,7 @@
       "Package": "polyclip",
       "Version": "1.10-7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -2135,14 +2154,14 @@
       "Package": "praise",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Hash": "a555924add98c99d2f411e37e7d25e9f"
     },
     "prettyunits": {
       "Package": "prettyunits",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -2152,7 +2171,7 @@
       "Package": "processx",
       "Version": "3.8.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -2163,18 +2182,16 @@
     },
     "profvis": {
       "Package": "profvis",
-      "Version": "0.3.8",
+      "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "htmlwidgets",
-        "purrr",
         "rlang",
-        "stringr",
         "vctrs"
       ],
-      "Hash": "aa5a3864397ce6ae03458f98618395a1"
+      "Hash": "bffa126bf92987e677c12cfb5651fc1d"
     },
     "projr": {
       "Package": "projr",
@@ -2182,10 +2199,10 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "projr",
       "RemoteUsername": "SATVILab",
-      "RemotePkgRef": "SATVILab/projr",
-      "RemoteSha": "e1bcd864a985a769686570f36213ce8e7879c128",
+      "RemoteRepo": "projr",
+      "RemoteRef": "main",
+      "RemoteSha": "751613927bdfb74bf302f5d2b62270362665406d",
       "Requirements": [
         "desc",
         "digest",
@@ -2195,13 +2212,13 @@
         "rprojroot",
         "yaml"
       ],
-      "Hash": "d948f90f89a896f9d725145380e201fc"
+      "Hash": "a5267a8c274d85353f64e0349e35662f"
     },
     "promises": {
       "Package": "promises",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R6",
         "Rcpp",
@@ -2215,20 +2232,20 @@
     },
     "ps": {
       "Package": "ps",
-      "Version": "1.7.7",
+      "Version": "1.8.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "878b467580097e9c383acbb16adab57a"
+      "Hash": "b4404b1de13758dea1c0484ad0d48563"
     },
     "purrr": {
       "Package": "purrr",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2243,7 +2260,7 @@
       "Package": "ragg",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "systemfonts",
         "textshaping"
@@ -2254,17 +2271,29 @@
       "Package": "rappdirs",
       "Version": "0.3.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
       "Hash": "5e3c5dc0b071b21fa128676560dbe94d"
     },
+    "rbibutils": {
+      "Package": "rbibutils",
+      "Version": "2.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "tools",
+        "utils"
+      ],
+      "Hash": "dfc034a172fd88fc66b1a703894c4185"
+    },
     "rcmdcheck": {
       "Package": "rcmdcheck",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R6",
         "callr",
@@ -2282,21 +2311,24 @@
       ],
       "Hash": "8f25ebe2ec38b1f2aef3b0d2ef76f6c4"
     },
-    "rematch2": {
-      "Package": "rematch2",
-      "Version": "2.1.2",
+    "reformulas": {
+      "Package": "reformulas",
+      "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
-        "tibble"
+        "Matrix",
+        "Rdpack",
+        "methods",
+        "stats"
       ],
-      "Hash": "76c9e04c712a05848ae7a23d2f170a40"
+      "Hash": "d23beb08dca526d22ff47ce399260ba4"
     },
     "remotes": {
       "Package": "remotes",
       "Version": "2.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "methods",
@@ -2315,13 +2347,17 @@
       "RemoteUsername": "rstudio",
       "RemoteRepo": "renv",
       "RemoteRef": "main",
-      "RemoteSha": "b531b0215fa8edcd80a05af22ec0f85a4dcb027a"
+      "RemoteSha": "b531b0215fa8edcd80a05af22ec0f85a4dcb027a",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "9002c894649542a4ca23e1e6f25f3f82"
     },
     "reshape2": {
       "Package": "reshape2",
       "Version": "1.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "Rcpp",
@@ -2334,7 +2370,7 @@
       "Package": "rex",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "lazyeval"
       ],
@@ -2344,7 +2380,7 @@
       "Package": "rlang",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "utils"
@@ -2353,9 +2389,9 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.28",
+      "Version": "2.29",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "bslib",
@@ -2372,13 +2408,13 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "062470668513dcda416927085ee9bdc7"
+      "Hash": "df99277f63d01c34e95e3d2f06a79736"
     },
     "roxygen2": {
       "Package": "roxygen2",
       "Version": "7.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -2404,7 +2440,7 @@
       "Package": "rprojroot",
       "Version": "2.0.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -2412,16 +2448,16 @@
     },
     "rstudioapi": {
       "Package": "rstudioapi",
-      "Version": "0.16.0",
+      "Version": "0.17.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
-      "Hash": "96710351d642b70e8f02ddeb237c46a7"
+      "Repository": "CRAN",
+      "Hash": "5f90cd73946d706cfe26024294236113"
     },
     "rversions": {
       "Package": "rversions",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "curl",
         "utils",
@@ -2433,7 +2469,7 @@
       "Package": "sass",
       "Version": "0.4.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R6",
         "fs",
@@ -2447,7 +2483,7 @@
       "Package": "scales",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -2465,19 +2501,19 @@
     },
     "secretbase": {
       "Package": "secretbase",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "02cf6443f61f1521def1ef3d6ce3638c"
+      "Hash": "eaf84737a6da68c1e843979963c09a6b"
     },
     "sessioninfo": {
       "Package": "sessioninfo",
       "Version": "1.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "cli",
@@ -2490,7 +2526,7 @@
       "Package": "shiny",
       "Version": "1.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -2523,7 +2559,7 @@
       "Package": "sourcetools",
       "Version": "0.1.7-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -2533,7 +2569,7 @@
       "Package": "stringi",
       "Version": "1.8.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "stats",
@@ -2546,7 +2582,7 @@
       "Package": "stringr",
       "Version": "1.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2563,7 +2599,7 @@
       "Package": "styler",
       "Version": "1.10.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R.cache",
@@ -2582,7 +2618,7 @@
       "Package": "survey",
       "Version": "4.4-2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "Matrix",
         "R",
@@ -2605,7 +2641,7 @@
       "Package": "survival",
       "Version": "3.7-0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -2619,16 +2655,16 @@
     },
     "sys": {
       "Package": "sys",
-      "Version": "3.4.2",
+      "Version": "3.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
-      "Hash": "3a1be13d68d47a8cd0bfd74739ca1555"
+      "Repository": "CRAN",
+      "Hash": "de342ebfebdbf40477d0758d05426646"
     },
     "systemfonts": {
       "Package": "systemfonts",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cpp11",
@@ -2638,9 +2674,9 @@
     },
     "targets": {
       "Package": "targets",
-      "Version": "1.7.1",
+      "Version": "1.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "R6",
@@ -2662,13 +2698,13 @@
         "vctrs",
         "yaml"
       ],
-      "Hash": "d79b21ef513564351577d7064e1fc4dd"
+      "Hash": "021ef38b55dac09df3c2c75befe54e8f"
     },
     "testthat": {
       "Package": "testthat",
       "Version": "3.2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "R6",
@@ -2697,7 +2733,7 @@
       "Package": "textshaping",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cpp11",
@@ -2710,7 +2746,7 @@
       "Package": "tibble",
       "Version": "3.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "fansi",
@@ -2729,7 +2765,7 @@
       "Package": "tidyr",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2752,7 +2788,7 @@
       "Package": "tidyselect",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2766,19 +2802,19 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.52",
+      "Version": "0.54",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "xfun"
       ],
-      "Hash": "cfbad971a71f0e27cec22e544a08bc3b"
+      "Hash": "3ec7e3ddcacc2d34a9046941222bf94d"
     },
     "tweenr": {
       "Package": "tweenr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cpp11",
@@ -2793,7 +2829,7 @@
       "Package": "unigd",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cpp11",
@@ -2805,7 +2841,7 @@
       "Package": "urlchecker",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "cli",
@@ -2819,7 +2855,7 @@
       "Package": "usethis",
       "Version": "3.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2850,7 +2886,7 @@
       "Package": "utf8",
       "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -2860,7 +2896,7 @@
       "Package": "vctrs",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2874,7 +2910,7 @@
       "Package": "viridisLite",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R"
       ],
@@ -2882,58 +2918,56 @@
     },
     "waldo": {
       "Package": "waldo",
-      "Version": "0.5.3",
+      "Version": "0.6.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
         "diffobj",
         "glue",
         "methods",
-        "rematch2",
-        "rlang",
-        "tibble"
+        "rlang"
       ],
-      "Hash": "16aa934a49658677d8041df9017329b9"
+      "Hash": "52f574062a7b66e56926988c3fbdb3b7"
     },
     "whisker": {
       "Package": "whisker",
       "Version": "0.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Hash": "c6abfa47a46d281a7d5159d0a8891e88"
     },
     "withr": {
       "Package": "withr",
-      "Version": "3.0.1",
+      "Version": "3.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "grDevices",
         "graphics"
       ],
-      "Hash": "07909200e8bbe90426fbfeb73e1e27aa"
+      "Hash": "cc2d62c76458d425210d1eb1478b30b4"
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.47",
+      "Version": "0.49",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "grDevices",
         "stats",
         "tools"
       ],
-      "Hash": "36ab21660e2d095fef0d83f689e0477c"
+      "Hash": "8687398773806cfff9401a2feca96298"
     },
     "xml2": {
       "Package": "xml2",
       "Version": "1.3.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "cli",
@@ -2946,7 +2980,7 @@
       "Package": "xmlparsedata",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R"
       ],
@@ -2956,7 +2990,7 @@
       "Package": "xopen",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Requirements": [
         "R",
         "processx"
@@ -2967,7 +3001,7 @@
       "Package": "xtable",
       "Version": "1.8-4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "BioCcontainers",
       "Requirements": [
         "R",
         "stats",
@@ -2979,14 +3013,14 @@
       "Package": "yaml",
       "Version": "2.3.10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "51dab85c6c98e50a18d7551e9d49f76c"
     },
     "zip": {
       "Package": "zip",
       "Version": "2.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "PPM",
       "Hash": "fcc4bd8e6da2d2011eb64a5e5cc685ab"
     }
   }
