@@ -44,14 +44,14 @@
       "Package": "AsioHeaders",
       "Version": "1.22.1-2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "85bf3bd8fa58da21a22d84fd4f4ef0a8"
     },
     "BH": {
       "Package": "BH",
       "Version": "1.84.0-0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "a8235afbcd6316e6e91433ea47661013"
     },
     "Biobase": {
@@ -148,7 +148,7 @@
       "Package": "DBI",
       "Version": "1.2.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods"
@@ -333,7 +333,7 @@
       "Package": "R.cache",
       "Version": "0.16.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -348,7 +348,7 @@
       "Package": "R.methodsS3",
       "Version": "1.8.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "utils"
@@ -359,7 +359,7 @@
       "Package": "R.oo",
       "Version": "1.26.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -372,7 +372,7 @@
       "Package": "R.utils",
       "Version": "2.12.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R.methodsS3",
@@ -387,7 +387,7 @@
       "Package": "R6",
       "Version": "2.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -397,7 +397,7 @@
       "Package": "RColorBrewer",
       "Version": "1.1-3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -413,7 +413,7 @@
       "Package": "Rcpp",
       "Version": "1.0.13",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "methods",
         "utils"
@@ -438,7 +438,7 @@
       "Package": "RcppEigen",
       "Version": "0.3.4.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "Rcpp",
@@ -474,7 +474,7 @@
       "Package": "TMB",
       "Version": "1.9.15",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Matrix",
         "R",
@@ -578,7 +578,7 @@
       "Package": "abind",
       "Version": "1.4-5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods",
@@ -590,7 +590,7 @@
       "Package": "askpass",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "sys"
       ],
@@ -600,7 +600,7 @@
       "Package": "backports",
       "Version": "1.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -610,7 +610,7 @@
       "Package": "base64enc",
       "Version": "0.1-3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -620,7 +620,7 @@
       "Package": "base64url",
       "Version": "1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "backports"
       ],
@@ -630,7 +630,7 @@
       "Package": "bookdown",
       "Version": "0.40",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "htmltools",
@@ -647,7 +647,7 @@
       "Package": "boot",
       "Version": "1.3-31",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "graphics",
@@ -659,14 +659,14 @@
       "Package": "brew",
       "Version": "1.0-10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "8f4a384e19dccd8c65356dc096847b76"
     },
     "brio": {
       "Package": "brio",
       "Version": "1.1.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -676,7 +676,7 @@
       "Package": "broom",
       "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "backports",
@@ -696,7 +696,7 @@
       "Package": "broom.mixed",
       "Version": "0.2.9.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "broom",
         "coda",
@@ -716,7 +716,7 @@
       "Package": "bslib",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "base64enc",
@@ -738,7 +738,7 @@
       "Package": "cachem",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "fastmap",
         "rlang"
@@ -749,7 +749,7 @@
       "Package": "callr",
       "Version": "3.7.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -762,7 +762,7 @@
       "Package": "carData",
       "Version": "3.0-5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -772,7 +772,7 @@
       "Package": "cli",
       "Version": "3.6.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "utils"
@@ -783,7 +783,7 @@
       "Package": "clipr",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "utils"
       ],
@@ -793,7 +793,7 @@
       "Package": "clue",
       "Version": "0.3-65",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cluster",
@@ -807,7 +807,7 @@
       "Package": "cluster",
       "Version": "2.1.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "grDevices",
@@ -821,7 +821,7 @@
       "Package": "coda",
       "Version": "0.19-4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "lattice"
@@ -832,7 +832,7 @@
       "Package": "codetools",
       "Version": "0.2-20",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -842,14 +842,14 @@
       "Package": "collections",
       "Version": "0.3.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "90a0eda114ab0bef170ddbf5ef0cd93f"
     },
     "colorspace": {
       "Package": "colorspace",
       "Version": "2.1-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "grDevices",
@@ -863,14 +863,14 @@
       "Package": "commonmark",
       "Version": "1.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "5d8225445acb167abf7797de48b2ee3c"
     },
     "cowplot": {
       "Package": "cowplot",
       "Version": "1.1.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "ggplot2",
@@ -887,7 +887,7 @@
       "Package": "cpp11",
       "Version": "0.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -897,7 +897,7 @@
       "Package": "crayon",
       "Version": "1.5.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "grDevices",
         "methods",
@@ -909,7 +909,7 @@
       "Package": "credentials",
       "Version": "2.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "askpass",
         "curl",
@@ -923,7 +923,7 @@
       "Package": "curl",
       "Version": "5.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -933,7 +933,7 @@
       "Package": "cyclocomp",
       "Version": "1.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "callr",
         "crayon",
@@ -959,7 +959,7 @@
       "Package": "data.table",
       "Version": "1.16.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods"
@@ -970,7 +970,7 @@
       "Package": "desc",
       "Version": "1.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -983,7 +983,7 @@
       "Package": "devtools",
       "Version": "2.4.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -1017,7 +1017,7 @@
       "Package": "diffobj",
       "Version": "0.3.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "crayon",
@@ -1032,7 +1032,7 @@
       "Package": "digest",
       "Version": "0.6.37",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "utils"
@@ -1043,7 +1043,7 @@
       "Package": "downlit",
       "Version": "0.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "brio",
@@ -1063,7 +1063,7 @@
       "Package": "dplyr",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -1086,7 +1086,7 @@
       "Package": "effects",
       "Version": "4.2-2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "carData",
@@ -1109,7 +1109,7 @@
       "Package": "ellipsis",
       "Version": "0.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "rlang"
@@ -1120,7 +1120,7 @@
       "Package": "estimability",
       "Version": "1.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "stats"
@@ -1131,7 +1131,7 @@
       "Package": "evaluate",
       "Version": "0.24.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods"
@@ -1142,7 +1142,7 @@
       "Package": "fansi",
       "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "grDevices",
@@ -1154,14 +1154,14 @@
       "Package": "farver",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "680887028577f3fa2a81e410ed0d6e42"
     },
     "fastmap": {
       "Package": "fastmap",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "aa5e1cd11c2d15497494c5292d7ffcc8"
     },
     "flowCore": {
@@ -1192,7 +1192,7 @@
       "Package": "fontawesome",
       "Version": "0.5.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "htmltools",
@@ -1204,7 +1204,7 @@
       "Package": "forcats",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -1220,7 +1220,7 @@
       "Package": "foreach",
       "Version": "1.5.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "codetools",
@@ -1233,7 +1233,7 @@
       "Package": "fs",
       "Version": "1.6.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods"
@@ -1244,7 +1244,7 @@
       "Package": "furrr",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "future",
@@ -1260,7 +1260,7 @@
       "Package": "future",
       "Version": "1.34.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "digest",
         "globals",
@@ -1275,7 +1275,7 @@
       "Package": "generics",
       "Version": "0.1.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods"
@@ -1286,7 +1286,7 @@
       "Package": "gert",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "askpass",
         "credentials",
@@ -1301,7 +1301,7 @@
       "Package": "ggforce",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "MASS",
         "R",
@@ -1330,7 +1330,7 @@
       "Package": "ggplot2",
       "Version": "3.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "MASS",
         "R",
@@ -1355,7 +1355,7 @@
       "Package": "gh",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -1373,7 +1373,7 @@
       "Package": "gitcreds",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -1383,7 +1383,7 @@
       "Package": "glmmTMB",
       "Version": "1.1.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Matrix",
         "R",
@@ -1401,7 +1401,7 @@
       "Package": "globals",
       "Version": "0.16.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "codetools"
@@ -1412,7 +1412,7 @@
       "Package": "glue",
       "Version": "1.7.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods"
@@ -1423,7 +1423,7 @@
       "Package": "gtable",
       "Version": "0.3.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -1438,7 +1438,7 @@
       "Package": "here",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "rprojroot"
       ],
@@ -1448,7 +1448,7 @@
       "Package": "highr",
       "Version": "0.11",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "xfun"
@@ -1459,7 +1459,7 @@
       "Package": "htmltools",
       "Version": "0.5.8.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "base64enc",
@@ -1475,7 +1475,7 @@
       "Package": "htmlwidgets",
       "Version": "1.6.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "grDevices",
         "htmltools",
@@ -1490,7 +1490,7 @@
       "Package": "httpgd",
       "Version": "2.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "AsioHeaders",
         "R",
@@ -1503,7 +1503,7 @@
       "Package": "httpuv",
       "Version": "1.6.15",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -1518,7 +1518,7 @@
       "Package": "httr2",
       "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -1539,7 +1539,7 @@
       "Package": "igraph",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Matrix",
         "R",
@@ -1562,14 +1562,14 @@
       "Package": "ini",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "6154ec2223172bce8162d4153cda21f7"
     },
     "insight": {
       "Package": "insight",
       "Version": "0.20.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods",
@@ -1582,7 +1582,7 @@
       "Package": "isoband",
       "Version": "0.2.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "grid",
         "utils"
@@ -1593,7 +1593,7 @@
       "Package": "iterators",
       "Version": "1.0.14",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "utils"
@@ -1604,7 +1604,7 @@
       "Package": "jquerylib",
       "Version": "0.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "htmltools"
       ],
@@ -1614,7 +1614,7 @@
       "Package": "jsonlite",
       "Version": "1.8.8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "methods"
       ],
@@ -1624,7 +1624,7 @@
       "Package": "knitr",
       "Version": "1.48",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "evaluate",
@@ -1640,7 +1640,7 @@
       "Package": "labeling",
       "Version": "0.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "graphics",
         "stats"
@@ -1651,7 +1651,7 @@
       "Package": "languageserver",
       "Version": "0.3.16",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -1675,7 +1675,7 @@
       "Package": "later",
       "Version": "1.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Rcpp",
         "rlang"
@@ -1686,7 +1686,7 @@
       "Package": "lattice",
       "Version": "0.22-6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "grDevices",
@@ -1701,7 +1701,7 @@
       "Package": "lazyeval",
       "Version": "0.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -1711,7 +1711,7 @@
       "Package": "lifecycle",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -1724,7 +1724,7 @@
       "Package": "lintr",
       "Version": "3.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "backports",
@@ -1745,7 +1745,7 @@
       "Package": "listenv",
       "Version": "0.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -1755,7 +1755,7 @@
       "Package": "lme4",
       "Version": "1.1-35.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "MASS",
         "Matrix",
@@ -1781,7 +1781,7 @@
       "Package": "magrittr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -1791,7 +1791,7 @@
       "Package": "matrixStats",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -1801,7 +1801,7 @@
       "Package": "memoise",
       "Version": "2.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "cachem",
         "rlang"
@@ -1812,7 +1812,7 @@
       "Package": "mgcv",
       "Version": "1.9-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Matrix",
         "R",
@@ -1829,7 +1829,7 @@
       "Package": "mime",
       "Version": "0.12",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "tools"
       ],
@@ -1839,7 +1839,7 @@
       "Package": "miniUI",
       "Version": "0.1.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "htmltools",
         "shiny",
@@ -1851,7 +1851,7 @@
       "Package": "minqa",
       "Version": "1.2.8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Rcpp"
       ],
@@ -1861,7 +1861,7 @@
       "Package": "mitools",
       "Version": "2.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "DBI",
         "methods",
@@ -1892,7 +1892,7 @@
       "Package": "munsell",
       "Version": "0.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "colorspace",
         "methods"
@@ -1903,7 +1903,7 @@
       "Package": "nlme",
       "Version": "3.1-166",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "graphics",
@@ -1917,14 +1917,14 @@
       "Package": "nloptr",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "27550641889a3abf3aec4d91186311ec"
     },
     "nnet": {
       "Package": "nnet",
       "Version": "7.3-19",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "stats",
@@ -1936,7 +1936,7 @@
       "Package": "numDeriv",
       "Version": "2016.8-1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -1946,7 +1946,7 @@
       "Package": "openssl",
       "Version": "2.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "askpass"
       ],
@@ -1956,7 +1956,7 @@
       "Package": "pander",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "Rcpp",
@@ -1974,7 +1974,7 @@
       "Package": "parallelly",
       "Version": "1.38.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "parallel",
         "tools",
@@ -1986,7 +1986,7 @@
       "Package": "pdist",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "methods"
       ],
@@ -1996,7 +1996,7 @@
       "Package": "pillar",
       "Version": "1.9.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "cli",
         "fansi",
@@ -2037,7 +2037,7 @@
       "Package": "pkgbuild",
       "Version": "1.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2052,7 +2052,7 @@
       "Package": "pkgconfig",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "utils"
       ],
@@ -2062,7 +2062,7 @@
       "Package": "pkgdown",
       "Version": "2.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "bslib",
@@ -2092,7 +2092,7 @@
       "Package": "pkgload",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2114,7 +2114,7 @@
       "Package": "plyr",
       "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "Rcpp"
@@ -2125,7 +2125,7 @@
       "Package": "polyclip",
       "Version": "1.10-7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2135,14 +2135,14 @@
       "Package": "praise",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "a555924add98c99d2f411e37e7d25e9f"
     },
     "prettyunits": {
       "Package": "prettyunits",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2152,7 +2152,7 @@
       "Package": "processx",
       "Version": "3.8.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2165,7 +2165,7 @@
       "Package": "profvis",
       "Version": "0.3.8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "htmlwidgets",
@@ -2201,7 +2201,7 @@
       "Package": "promises",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R6",
         "Rcpp",
@@ -2217,7 +2217,7 @@
       "Package": "ps",
       "Version": "1.7.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "utils"
@@ -2228,7 +2228,7 @@
       "Package": "purrr",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2243,7 +2243,7 @@
       "Package": "ragg",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "systemfonts",
         "textshaping"
@@ -2254,7 +2254,7 @@
       "Package": "rappdirs",
       "Version": "0.3.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2264,7 +2264,7 @@
       "Package": "rcmdcheck",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R6",
         "callr",
@@ -2286,7 +2286,7 @@
       "Package": "rematch2",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "tibble"
       ],
@@ -2296,7 +2296,7 @@
       "Package": "remotes",
       "Version": "2.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "methods",
@@ -2321,7 +2321,7 @@
       "Package": "reshape2",
       "Version": "1.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "Rcpp",
@@ -2334,7 +2334,7 @@
       "Package": "rex",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "lazyeval"
       ],
@@ -2344,7 +2344,7 @@
       "Package": "rlang",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "utils"
@@ -2355,7 +2355,7 @@
       "Package": "rmarkdown",
       "Version": "2.28",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "bslib",
@@ -2378,7 +2378,7 @@
       "Package": "roxygen2",
       "Version": "7.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2404,7 +2404,7 @@
       "Package": "rprojroot",
       "Version": "2.0.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2414,14 +2414,14 @@
       "Package": "rstudioapi",
       "Version": "0.16.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "96710351d642b70e8f02ddeb237c46a7"
     },
     "rversions": {
       "Package": "rversions",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "curl",
         "utils",
@@ -2433,7 +2433,7 @@
       "Package": "sass",
       "Version": "0.4.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R6",
         "fs",
@@ -2447,7 +2447,7 @@
       "Package": "scales",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2467,7 +2467,7 @@
       "Package": "secretbase",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2477,7 +2477,7 @@
       "Package": "sessioninfo",
       "Version": "1.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2490,7 +2490,7 @@
       "Package": "shiny",
       "Version": "1.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2523,7 +2523,7 @@
       "Package": "sourcetools",
       "Version": "0.1.7-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2533,7 +2533,7 @@
       "Package": "stringi",
       "Version": "1.8.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "stats",
@@ -2546,7 +2546,7 @@
       "Package": "stringr",
       "Version": "1.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2563,7 +2563,7 @@
       "Package": "styler",
       "Version": "1.10.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R.cache",
@@ -2582,7 +2582,7 @@
       "Package": "survey",
       "Version": "4.4-2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Matrix",
         "R",
@@ -2605,7 +2605,7 @@
       "Package": "survival",
       "Version": "3.7-0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "Matrix",
         "R",
@@ -2621,14 +2621,14 @@
       "Package": "sys",
       "Version": "3.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "3a1be13d68d47a8cd0bfd74739ca1555"
     },
     "systemfonts": {
       "Package": "systemfonts",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cpp11",
@@ -2640,7 +2640,7 @@
       "Package": "targets",
       "Version": "1.7.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2668,7 +2668,7 @@
       "Package": "testthat",
       "Version": "3.2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "R6",
@@ -2697,7 +2697,7 @@
       "Package": "textshaping",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cpp11",
@@ -2710,7 +2710,7 @@
       "Package": "tibble",
       "Version": "3.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "fansi",
@@ -2729,7 +2729,7 @@
       "Package": "tidyr",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2752,7 +2752,7 @@
       "Package": "tidyselect",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2768,7 +2768,7 @@
       "Package": "tinytex",
       "Version": "0.52",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "xfun"
       ],
@@ -2778,7 +2778,7 @@
       "Package": "tweenr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cpp11",
@@ -2793,7 +2793,7 @@
       "Package": "unigd",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cpp11",
@@ -2805,7 +2805,7 @@
       "Package": "urlchecker",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2819,7 +2819,7 @@
       "Package": "usethis",
       "Version": "3.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2850,7 +2850,7 @@
       "Package": "utf8",
       "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2860,7 +2860,7 @@
       "Package": "vctrs",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2874,7 +2874,7 @@
       "Package": "viridisLite",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2884,7 +2884,7 @@
       "Package": "waldo",
       "Version": "0.5.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2901,14 +2901,14 @@
       "Package": "whisker",
       "Version": "0.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "c6abfa47a46d281a7d5159d0a8891e88"
     },
     "withr": {
       "Package": "withr",
       "Version": "3.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "grDevices",
@@ -2920,7 +2920,7 @@
       "Package": "xfun",
       "Version": "0.47",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "grDevices",
@@ -2933,7 +2933,7 @@
       "Package": "xml2",
       "Version": "1.3.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "cli",
@@ -2946,7 +2946,7 @@
       "Package": "xmlparsedata",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R"
       ],
@@ -2956,7 +2956,7 @@
       "Package": "xopen",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "processx"
@@ -2967,7 +2967,7 @@
       "Package": "xtable",
       "Version": "1.8-4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Requirements": [
         "R",
         "stats",
@@ -2979,14 +2979,14 @@
       "Package": "yaml",
       "Version": "2.3.10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "51dab85c6c98e50a18d7551e9d49f76c"
     },
     "zip": {
       "Package": "zip",
       "Version": "2.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
       "Hash": "fcc4bd8e6da2d2011eb64a5e5cc685ab"
     }
   }
