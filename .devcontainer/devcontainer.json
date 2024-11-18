@@ -11,7 +11,7 @@
     "ghcr.io/MiguelRodo/DevContainerFeatures/config-r:2": {
       "debug": true,
       "debugRenv": true,
-			"pkgExclude": "DataTidyACSCyTOFCytokinesNKBCells,DataTidyACSCyTOFCytokinesTCells,DataTidyACSCyTOFFAUST,DataTidyACSPepSeq,DataTidyACSRISK6,DataTidyACSSinghania,DataTidyACSSoma,PipelineAnalysisACS,pipeline,PipelineDataACSCytokines,stimgate"
+			"pkgExclude": "DataTidyACSCyTOFCytokinesNKBCells,DataTidyACSCyTOFCytokinesTCells,DataTidyACSCyTOFFAUST,DataTidyACSPepSeq,DataTidyACSSinghania"
     },
 		"ghcr.io/rocker-org/devcontainer-features/r-rig:1": {
 			"installDevTools": false,
