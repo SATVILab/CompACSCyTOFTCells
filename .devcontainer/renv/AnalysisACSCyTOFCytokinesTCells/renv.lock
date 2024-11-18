@@ -29,6 +29,10 @@
       {
         "Name": "CRAN",
         "URL": "https://packagemanager.rstudio.com/cran/latest"
+      },
+      {
+        "Name": "PPM",
+        "URL": "https://packagemanager.posit.co/cran/latest"
       }
     ]
   },
