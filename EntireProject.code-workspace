@@ -28,6 +28,9 @@
       "path": "../PipelineAnalysisACS"
     },
     {
+			"path": "../AnalysisPrimary"
+		},
+    {
       "path": "../AnalysisACSCyTOFTCells"
     },
     {
