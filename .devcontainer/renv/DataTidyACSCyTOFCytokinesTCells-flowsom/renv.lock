@@ -5,10 +5,6 @@
       {
         "Name": "PPM",
         "URL": "https://packagemanager.posit.co/cran/latest"
-      },
-      {
-        "Name": "RSPM",
-        "URL": "https://packagemanager.posit.co/cran/latest"
       }
     ]
   },
@@ -30,7 +26,7 @@
       "Package": "BH",
       "Version": "1.84.0-0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "a8235afbcd6316e6e91433ea47661013"
     },
     "Biobase": {
@@ -286,7 +282,7 @@
       "Package": "Deriv",
       "Version": "4.1.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "methods"
       ],
@@ -418,7 +414,7 @@
       "Package": "KernSmooth",
       "Version": "2.23-24",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "stats"
@@ -429,7 +425,7 @@
       "Package": "MASS",
       "Version": "7.3-58.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "grDevices",
@@ -538,7 +534,7 @@
       "Package": "R6",
       "Version": "2.5.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -559,7 +555,7 @@
       "Package": "RColorBrewer",
       "Version": "1.1-3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -600,7 +596,7 @@
       "Package": "Rcpp",
       "Version": "1.0.13-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "methods",
         "utils"
@@ -623,7 +619,7 @@
       "Package": "RcppArmadillo",
       "Version": "14.0.2-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -637,7 +633,7 @@
       "Package": "RcppEigen",
       "Version": "0.3.4.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -855,7 +851,7 @@
       "Package": "abind",
       "Version": "1.4-8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods",
@@ -893,7 +889,7 @@
       "Package": "askpass",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "sys"
       ],
@@ -903,7 +899,7 @@
       "Package": "backports",
       "Version": "1.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -913,7 +909,7 @@
       "Package": "base64enc",
       "Version": "0.1-3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -923,7 +919,7 @@
       "Package": "base64url",
       "Version": "1.4",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "backports"
       ],
@@ -933,7 +929,7 @@
       "Package": "bit",
       "Version": "4.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -943,7 +939,7 @@
       "Package": "bit64",
       "Version": "4.5.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "bit",
@@ -964,7 +960,7 @@
       "Package": "bookdown",
       "Version": "0.41",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "htmltools",
@@ -981,7 +977,7 @@
       "Package": "boot",
       "Version": "1.3-31",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "graphics",
@@ -993,14 +989,14 @@
       "Package": "brew",
       "Version": "1.0-10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "8f4a384e19dccd8c65356dc096847b76"
     },
     "brio": {
       "Package": "brio",
       "Version": "1.1.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -1010,7 +1006,7 @@
       "Package": "broom",
       "Version": "1.0.7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "backports",
@@ -1030,7 +1026,7 @@
       "Package": "bslib",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -1052,7 +1048,7 @@
       "Package": "cachem",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "fastmap",
         "rlang"
@@ -1063,7 +1059,7 @@
       "Package": "callr",
       "Version": "3.7.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -1076,7 +1072,7 @@
       "Package": "car",
       "Version": "3.1-3",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "Formula",
         "MASS",
@@ -1101,7 +1097,7 @@
       "Package": "carData",
       "Version": "3.0-5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -1111,7 +1107,7 @@
       "Package": "cccrm",
       "Version": "3.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "Deriv",
         "R",
@@ -1133,7 +1129,7 @@
       "Package": "cli",
       "Version": "3.6.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -1144,7 +1140,7 @@
       "Package": "clipr",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
@@ -1154,7 +1150,7 @@
       "Package": "clue",
       "Version": "0.3-66",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cluster",
@@ -1168,7 +1164,7 @@
       "Package": "cluster",
       "Version": "2.1.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -1182,7 +1178,7 @@
       "Package": "coda",
       "Version": "0.19-4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "lattice"
@@ -1193,7 +1189,7 @@
       "Package": "codetools",
       "Version": "0.2-20",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -1210,7 +1206,7 @@
       "Package": "colorspace",
       "Version": "2.1-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -1224,7 +1220,7 @@
       "Package": "commonmark",
       "Version": "1.9.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "14eb0596f987c71535d07c3aff814742"
     },
     "corpcor": {
@@ -1242,14 +1238,14 @@
       "Package": "corrplot",
       "Version": "0.95",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Hash": "f52d5babd10d348f9c0771386b61ea4a"
     },
     "cowplot": {
       "Package": "cowplot",
       "Version": "1.1.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "ggplot2",
@@ -1266,7 +1262,7 @@
       "Package": "cpp11",
       "Version": "0.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -1276,7 +1272,7 @@
       "Package": "crayon",
       "Version": "1.5.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "grDevices",
         "methods",
@@ -1288,7 +1284,7 @@
       "Package": "credentials",
       "Version": "2.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "askpass",
         "curl",
@@ -1302,7 +1298,7 @@
       "Package": "curl",
       "Version": "6.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -1348,7 +1344,7 @@
       "Package": "data.table",
       "Version": "1.16.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
@@ -1385,7 +1381,7 @@
       "Package": "desc",
       "Version": "1.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -1398,7 +1394,7 @@
       "Package": "devtools",
       "Version": "2.4.5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
@@ -1432,7 +1428,7 @@
       "Package": "diffobj",
       "Version": "0.3.5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "crayon",
@@ -1447,7 +1443,7 @@
       "Package": "digest",
       "Version": "0.6.37",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -1458,7 +1454,7 @@
       "Package": "doBy",
       "Version": "4.6.24",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "Deriv",
         "MASS",
@@ -1482,7 +1478,7 @@
       "Package": "downlit",
       "Version": "0.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "brio",
@@ -1502,7 +1498,7 @@
       "Package": "dplyr",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -1538,7 +1534,7 @@
       "Package": "ellipsis",
       "Version": "0.3.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "rlang"
@@ -1549,7 +1545,7 @@
       "Package": "evaluate",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -1580,7 +1576,7 @@
       "Package": "fansi",
       "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -1592,14 +1588,14 @@
       "Package": "farver",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "680887028577f3fa2a81e410ed0d6e42"
     },
     "fastmap": {
       "Package": "fastmap",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "aa5e1cd11c2d15497494c5292d7ffcc8"
     },
     "fda": {
@@ -1761,7 +1757,7 @@
       "Package": "fontawesome",
       "Version": "0.5.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "htmltools",
@@ -1773,7 +1769,7 @@
       "Package": "foreach",
       "Version": "1.5.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "codetools",
@@ -1796,7 +1792,7 @@
       "Package": "fs",
       "Version": "1.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
@@ -1807,7 +1803,7 @@
       "Package": "furrr",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "future",
@@ -1846,7 +1842,7 @@
       "Package": "future",
       "Version": "1.34.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "digest",
         "globals",
@@ -1861,7 +1857,7 @@
       "Package": "generics",
       "Version": "0.1.3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
@@ -1872,7 +1868,7 @@
       "Package": "gert",
       "Version": "2.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "askpass",
         "credentials",
@@ -1907,7 +1903,7 @@
       "Package": "ggforce",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "MASS",
         "R",
@@ -1946,7 +1942,7 @@
       "Package": "ggplot2",
       "Version": "3.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "MASS",
         "R",
@@ -2000,7 +1996,7 @@
       "Package": "ggrepel",
       "Version": "0.9.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -2039,7 +2035,7 @@
       "Package": "gh",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -2057,7 +2053,7 @@
       "Package": "gitcreds",
       "Version": "0.1.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -2067,7 +2063,7 @@
       "Package": "globals",
       "Version": "0.16.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "codetools"
@@ -2078,7 +2074,7 @@
       "Package": "glue",
       "Version": "1.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
@@ -2117,7 +2113,7 @@
       "Package": "gss",
       "Version": "2.2-8",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "stats"
@@ -2128,7 +2124,7 @@
       "Package": "gtable",
       "Version": "0.3.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -2172,7 +2168,7 @@
       "Package": "here",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "rprojroot"
       ],
@@ -2182,7 +2178,7 @@
       "Package": "hexbin",
       "Version": "1.28.5",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -2199,7 +2195,7 @@
       "Package": "highr",
       "Version": "0.11",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "xfun"
@@ -2224,7 +2220,7 @@
       "Package": "htmltools",
       "Version": "0.5.8.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -2240,7 +2236,7 @@
       "Package": "htmlwidgets",
       "Version": "1.6.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "grDevices",
         "htmltools",
@@ -2255,7 +2251,7 @@
       "Package": "httpuv",
       "Version": "1.6.15",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -2285,7 +2281,7 @@
       "Package": "httr2",
       "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -2306,7 +2302,7 @@
       "Package": "igraph",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -2329,7 +2325,7 @@
       "Package": "ini",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Hash": "6154ec2223172bce8162d4153cda21f7"
     },
     "interp": {
@@ -2349,7 +2345,7 @@
       "Package": "irlba",
       "Version": "2.3.5.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -2362,7 +2358,7 @@
       "Package": "isoband",
       "Version": "0.2.7",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "grid",
         "utils"
@@ -2373,7 +2369,7 @@
       "Package": "iterators",
       "Version": "1.0.14",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -2394,7 +2390,7 @@
       "Package": "jquerylib",
       "Version": "0.1.4",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "htmltools"
       ],
@@ -2404,7 +2400,7 @@
       "Package": "jsonlite",
       "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "methods"
       ],
@@ -2428,7 +2424,7 @@
       "Package": "knitr",
       "Version": "1.49",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "evaluate",
@@ -2463,7 +2459,7 @@
       "Package": "labeling",
       "Version": "0.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "graphics",
         "stats"
@@ -2485,7 +2481,7 @@
       "Package": "later",
       "Version": "1.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "Rcpp",
         "rlang"
@@ -2496,7 +2492,7 @@
       "Package": "lattice",
       "Version": "0.22-6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -2531,7 +2527,7 @@
       "Package": "lazyeval",
       "Version": "0.2.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -2541,7 +2537,7 @@
       "Package": "lifecycle",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -2554,7 +2550,7 @@
       "Package": "listenv",
       "Version": "0.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -2564,7 +2560,7 @@
       "Package": "lme4",
       "Version": "1.1-35.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "MASS",
         "Matrix",
@@ -2614,7 +2610,7 @@
       "Package": "magrittr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -2624,7 +2620,7 @@
       "Package": "matrixStats",
       "Version": "1.4.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -2659,7 +2655,7 @@
       "Package": "memoise",
       "Version": "2.0.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "cachem",
         "rlang"
@@ -2670,7 +2666,7 @@
       "Package": "mgcv",
       "Version": "1.9-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -2699,7 +2695,7 @@
       "Package": "mime",
       "Version": "0.12",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "tools"
       ],
@@ -2709,7 +2705,7 @@
       "Package": "miniUI",
       "Version": "0.1.1.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "htmltools",
         "shiny",
@@ -2721,7 +2717,7 @@
       "Package": "minqa",
       "Version": "1.2.8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "Rcpp"
       ],
@@ -2785,7 +2781,7 @@
       "Package": "munsell",
       "Version": "0.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "colorspace",
         "methods"
@@ -2796,7 +2792,7 @@
       "Package": "mvtnorm",
       "Version": "1.3-2",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "stats"
@@ -2824,7 +2820,7 @@
       "Package": "nlme",
       "Version": "3.1-166",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "graphics",
@@ -2838,7 +2834,7 @@
       "Package": "nlmeU",
       "Version": "0.70-9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "nlme"
@@ -2849,14 +2845,14 @@
       "Package": "nloptr",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "27550641889a3abf3aec4d91186311ec"
     },
     "nnet": {
       "Package": "nnet",
       "Version": "7.3-19",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "stats",
@@ -2868,7 +2864,7 @@
       "Package": "numDeriv",
       "Version": "2016.8-1.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -2901,7 +2897,7 @@
       "Package": "openssl",
       "Version": "2.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "askpass"
       ],
@@ -2911,7 +2907,7 @@
       "Package": "pak",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "https://r-lib.github.io/p/pak/stable/source/linux-gnu/x86_64",
       "Requirements": [
         "R",
         "tools",
@@ -2923,7 +2919,7 @@
       "Package": "pander",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -2941,7 +2937,7 @@
       "Package": "parallelly",
       "Version": "1.39.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "parallel",
         "tools",
@@ -2983,7 +2979,7 @@
       "Package": "pdist",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "methods"
       ],
@@ -2993,7 +2989,7 @@
       "Package": "piggyback",
       "Version": "0.1.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "cli",
         "fs",
@@ -3010,7 +3006,7 @@
       "Package": "pillar",
       "Version": "1.9.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "cli",
         "fansi",
@@ -3027,7 +3023,7 @@
       "Package": "pkgbuild",
       "Version": "1.4.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3042,7 +3038,7 @@
       "Package": "pkgconfig",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
@@ -3052,7 +3048,7 @@
       "Package": "pkgdown",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "bslib",
@@ -3082,7 +3078,7 @@
       "Package": "pkgload",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -3104,7 +3100,7 @@
       "Package": "plyr",
       "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp"
@@ -3125,7 +3121,7 @@
       "Package": "polyclip",
       "Version": "1.10-7",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -3160,14 +3156,14 @@
       "Package": "praise",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Hash": "a555924add98c99d2f411e37e7d25e9f"
     },
     "prettyunits": {
       "Package": "prettyunits",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -3177,7 +3173,7 @@
       "Package": "processx",
       "Version": "3.8.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3190,7 +3186,7 @@
       "Package": "profvis",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "htmlwidgets",
@@ -3217,7 +3213,7 @@
       "Package": "progressr",
       "Version": "0.15.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "digest",
@@ -3250,7 +3246,7 @@
       "Package": "promises",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R6",
         "Rcpp",
@@ -3266,7 +3262,7 @@
       "Package": "ps",
       "Version": "1.8.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -3277,7 +3273,7 @@
       "Package": "purrr",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -3292,7 +3288,7 @@
       "Package": "quantreg",
       "Version": "5.99",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "MASS",
         "Matrix",
@@ -3310,7 +3306,7 @@
       "Package": "quarto",
       "Version": "1.4.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -3330,7 +3326,7 @@
       "Package": "ragg",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "systemfonts",
         "textshaping"
@@ -3358,7 +3354,7 @@
       "Package": "rappdirs",
       "Version": "0.3.3",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
@@ -3368,7 +3364,7 @@
       "Package": "rcmdcheck",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R6",
         "callr",
@@ -3390,7 +3386,7 @@
       "Package": "readr",
       "Version": "2.1.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3413,7 +3409,7 @@
       "Package": "remotes",
       "Version": "2.5.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods",
@@ -3453,7 +3449,7 @@
       "Package": "reshape2",
       "Version": "1.4.4",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "Rcpp",
@@ -3466,7 +3462,7 @@
       "Package": "rlang",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -3477,7 +3473,7 @@
       "Package": "rmarkdown",
       "Version": "2.29",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "bslib",
@@ -3525,7 +3521,7 @@
       "Package": "roxygen2",
       "Version": "7.3.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3551,7 +3547,7 @@
       "Package": "rpart",
       "Version": "4.1.23",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -3564,7 +3560,7 @@
       "Package": "rprojroot",
       "Version": "2.0.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -3614,14 +3610,14 @@
       "Package": "rstudioapi",
       "Version": "0.17.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "5f90cd73946d706cfe26024294236113"
     },
     "rsvd": {
       "Package": "rsvd",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R"
@@ -3632,7 +3628,7 @@
       "Package": "rversions",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "curl",
         "utils",
@@ -3644,7 +3640,7 @@
       "Package": "sass",
       "Version": "0.4.9",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R6",
         "fs",
@@ -3658,7 +3654,7 @@
       "Package": "scales",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3694,7 +3690,7 @@
       "Package": "secretbase",
       "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -3704,7 +3700,7 @@
       "Package": "sessioninfo",
       "Version": "1.2.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
@@ -3717,7 +3713,7 @@
       "Package": "shiny",
       "Version": "1.9.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3772,7 +3768,7 @@
       "Package": "sourcetools",
       "Version": "0.1.7-1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -3782,7 +3778,7 @@
       "Package": "spatial",
       "Version": "7.3-17",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "graphics",
@@ -3864,7 +3860,7 @@
       "Package": "stringi",
       "Version": "1.8.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "stats",
@@ -3877,7 +3873,7 @@
       "Package": "stringr",
       "Version": "1.5.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -3894,7 +3890,7 @@
       "Package": "survival",
       "Version": "3.7-0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "Matrix",
         "R",
@@ -3910,14 +3906,14 @@
       "Package": "sys",
       "Version": "3.4.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "de342ebfebdbf40477d0758d05426646"
     },
     "systemfonts": {
       "Package": "systemfonts",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cpp11",
@@ -3929,7 +3925,7 @@
       "Package": "targets",
       "Version": "1.8.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3957,7 +3953,7 @@
       "Package": "testthat",
       "Version": "3.2.1.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -3986,7 +3982,7 @@
       "Package": "textshaping",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cpp11",
@@ -3999,7 +3995,7 @@
       "Package": "tibble",
       "Version": "3.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "fansi",
@@ -4018,7 +4014,7 @@
       "Package": "tidyr",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -4041,7 +4037,7 @@
       "Package": "tidyselect",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -4079,7 +4075,7 @@
       "Package": "timeDate",
       "Version": "4041.110",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "graphics",
@@ -4093,7 +4089,7 @@
       "Package": "timeSeries",
       "Version": "4041.111",
       "Source": "Repository",
-      "Repository": "PPM",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -4120,7 +4116,7 @@
       "Package": "tinytex",
       "Version": "0.54",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "xfun"
       ],
@@ -4148,7 +4144,7 @@
       "Package": "tweenr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cpp11",
@@ -4174,7 +4170,7 @@
       "Package": "urlchecker",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
@@ -4188,7 +4184,7 @@
       "Package": "usethis",
       "Version": "3.0.0",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -4219,7 +4215,7 @@
       "Package": "utf8",
       "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -4229,7 +4225,7 @@
       "Package": "uwot",
       "Version": "0.2.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "FNN",
         "Matrix",
@@ -4247,7 +4243,7 @@
       "Package": "vctrs",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -4261,14 +4257,14 @@
       "Package": "versions",
       "Version": "0.3",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "899888c2f3dc0892c2a5727de2ef3756"
     },
     "viridisLite": {
       "Package": "viridisLite",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -4278,7 +4274,7 @@
       "Package": "visNetwork",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -4322,7 +4318,7 @@
       "Package": "waldo",
       "Version": "0.6.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -4337,14 +4333,14 @@
       "Package": "whisker",
       "Version": "0.4.1",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Hash": "c6abfa47a46d281a7d5159d0a8891e88"
     },
     "withr": {
       "Package": "withr",
       "Version": "3.0.2",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -4356,7 +4352,7 @@
       "Package": "xfun",
       "Version": "0.49",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
@@ -4369,7 +4365,7 @@
       "Package": "xml2",
       "Version": "1.3.6",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -4382,7 +4378,7 @@
       "Package": "xopen",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "processx"
@@ -4393,7 +4389,7 @@
       "Package": "xtable",
       "Version": "1.8-4",
       "Source": "Repository",
-      "Repository": "https://bioconductor.org/packages/3.16/container-binaries/bioconductor_docker",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats",
@@ -4405,14 +4401,14 @@
       "Package": "yaml",
       "Version": "2.3.10",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "51dab85c6c98e50a18d7551e9d49f76c"
     },
     "yulab.utils": {
       "Package": "yulab.utils",
       "Version": "0.1.8",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Requirements": [
         "cli",
         "digest",
@@ -4427,7 +4423,7 @@
       "Package": "zip",
       "Version": "2.3.1",
       "Source": "Repository",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/jammy/latest",
+      "Repository": "RSPM",
       "Hash": "fcc4bd8e6da2d2011eb64a5e5cc685ab"
     },
     "zlibbioc": {
