@@ -7,43 +7,19 @@
       "path": "../CompACSCyTOFTCells"
     },
     {
-      "path": "../DataTidyACSClinical"
-    },
-    {
-      "path": "../DataTidyACSCyTOFPreprocess"
-    },
-    {
-      "path": "../DataTidyACSCyTOFFAUST"
-    },
-    {
-      "path": "../stimgate"
-    },
-    {
       "path": "../PipelineDataACSCytokines"
     },
     {
       "path": "../DataTidyACSCyTOFCytokinesTCells"
     },
     {
-      "path": "../PipelineAnalysisACS"
-    },
-    {
-			"path": "../AnalysisPrimary"
-		},
-    {
       "path": "../AnalysisACSCyTOFTCells"
-    },
-    {
-      "path": "../ReportACSCyTOFTCells"
     },
     {
       "path": "../ReportFlowSOM"
     },
     {
       "path": "../StoreACSCyTOF"
-    },
-    {
-      "path": "../StoreACSCyTOFTCells"
     }
   ],
   "settings": {
