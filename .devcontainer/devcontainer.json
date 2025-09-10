@@ -41,6 +41,90 @@
 				"eamodio.gitlens",
 				"mathematic.vscode-pdf"
 			]
+		},
+		"codespaces": {
+			"repositories": {
+				"SATVILab/DataTidyACSClinical": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/DataTidyACSCyTOFPreprocess": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/DataTidyACSCyTOFFAUST": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/PipelineDataACSCytokines": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/DataTidyACSCyTOFCytokinesTCells": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/PipelineAnalysisACS": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/AnalysisACSCyTOFTCells": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/ReportACSCyTOFTCells": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/stimgate": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				},
+				"SATVILab/StoreACSCyTOF": {
+					"permissions": {
+						"actions": "write",
+						"contents": "write",
+						"packages": "read",
+						"workflows": "write"
+					}
+				}
+			}
 		}
 	}
 }
