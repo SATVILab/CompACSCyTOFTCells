@@ -1,12 +1,15 @@
 SATVILab/DataTidyACSClinical
 SATVILab/DataTidyACSCyTOFPreprocess
-SATVILab/DataTidyACSCyTOFFAUST
+SATVILab/DataTidyACSCyTOFFAUST@primary DataTidyFAUSTPrimary
+SATVILab/DataTidyACSCyTOFFAUST@flowsom DataTidyFAUSTFlowSOM
 SATVILab/PipelineDataACSCytokines
-SATVILab/DataTidyACSCyTOFCytokinesTCells
+SATVILab/DataTidyACSCyTOFCytokinesTCells@primary DataTidyCytPrimary
+SATVILab/DataTidyACSCyTOFCytokinesTCells@flowsom DataTidyCytFlowSOM
 SATVILab/PipelineAnalysisACS
-SATVILab/AnalysisACSCyTOFTCells
+SATVILab/AnalysisACSCyTOFTCells@flowsom AnalysisFlowSOM
 SATVILab/AnalysisACSCyTOFTCells@primary AnalysisPrimary
-SATVILab/ReportACSCyTOFTCells
+SATVILab/ReportACSCyTOFTCells@primary ReportPrimary
 SATVILab/ReportACSCyTOFTCells@flowsom ReportFlowSOM
+SATVILab/outliergatev1
 SATVILab/stimgate
 SATVILab/StoreACSCyTOF

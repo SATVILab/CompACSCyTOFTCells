@@ -16,13 +16,7 @@
       "path": "../DataTidyFAUSTPrimary"
     },
     {
-      "path": "../DataTidyFAUSTFlowSOM"
-    },
-    {
       "path": "../DataTidyCytPrimary"
-    },
-    {
-      "path": "../DataTidyCytFlowSOM"
     },
     {
       "path": "../PipelineAnalysisACS"
@@ -31,10 +25,7 @@
       "path": "../AnalysisPrimary"
     },
     {
-      "path": "../AnalysisFlowSOM"
-    },
-    {
-      "path": "../ReportFlowSOM"
+      "path": "../ReportPrimary"
     },
     {
       "path": "../StoreACSCyTOF"
