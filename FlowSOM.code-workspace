@@ -7,28 +7,13 @@
       "path": "../CompACSCyTOFTCells"
     },
     {
-      "path": "../PipelineDataACSCytokines"
-    },
-    {
-      "path": "../outliergatev1"
-    },
-    {
-      "path": "../DataTidyFAUSTPrimary"
-    },
-    {
       "path": "../DataTidyFAUSTFlowSOM"
-    },
-    {
-      "path": "../DataTidyCytPrimary"
     },
     {
       "path": "../DataTidyCytFlowSOM"
     },
     {
       "path": "../PipelineAnalysisACS"
-    },
-    {
-      "path": "../AnalysisPrimary"
     },
     {
       "path": "../AnalysisFlowSOM"
