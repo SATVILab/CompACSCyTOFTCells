@@ -19,6 +19,9 @@
       "path": "../DataTidyCytPrimary"
     },
     {
+      "path": "../pipeline"
+    },
+    {
       "path": "../PipelineAnalysisACS"
     },
     {
