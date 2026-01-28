@@ -134,3 +134,40 @@ git clone https://github.com/SATVILab/PipelineAnalysisACS.git
 git clone https://github.com/SATVILab/AnalysisACSCyTOFTCells.git
 git clone https://github.com/SATVILab/ReportACSCyTOFTCells.git
 ```
+
+## 📄 Citation
+
+Please cite both the **Scientific Paper** (for the biological findings) and the **Software** (if you used this specific code).
+
+### 1. Cite the Scientific Paper
+
+If you use the methodology or biological findings from this work, please cite the accompanying publication:
+
+> **Rozot V, Rodo MJ, Young C, Musvosvi M, et al.** "[Insert Full Paper Title Here]." *[Journal Name]* (202x). DOI: [Insert DOI]
+
+### 2. Cite this Software
+
+If you use this specific software implementation in your analysis, please cite:
+
+> **Rodo MJ & Scriba TJ.** (2026). *CompACSCyTOFTCells* [Computer software]. Version 1.0.0. SATVI, University of Cape Town.
+
+### BibTeX
+
+```bibtex
+@article{rozot_rodo_2026,
+  title = {[Insert Full Paper Title Here]},
+  author = {Rozot, Virginie and Rodo, Miguel J and Young, Carly and Musvosvi, Munyaradzi and others},
+  journal = {[Journal Name]},
+  year = {2026},
+  doi = {[Insert DOI]}
+}
+
+@software{rodo_scriba_2026,
+  author = {Rodo, Miguel J and Scriba, Thomas J},
+  title = {CompACSCyTOFTCells},
+  year = {2026},
+  publisher = {SATVI, University of Cape Town},
+  version = {1.0.0},
+  url = {https://github.com/SATVILab/CompACSCyTOFTCells}
+}
+```
