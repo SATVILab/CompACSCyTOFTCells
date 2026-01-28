@@ -146,26 +146,6 @@ Some repositories may appear in the organisation but are not part of the current
 
 These are not required for reproducing the analyses described here.
 
----
-
-## Working with the project in VS Code
-
-This repository provides VS Code workspace files that open multiple repositories at once in a single, multi-root workspace.
-
-The most relevant workspaces are:
-
-* **Primary analysis workspace**
-  Includes only the repositories and branches used for the main analysis.
-
-* **FlowSOM analysis workspace**
-  Includes only the repositories and branches used for the FlowSOM-based analysis.
-
-* **Entire project workspace**
-  Includes all repositories cloned via `repos.list`.
-
-These workspaces assume the directory structure created by `scripts/setup-repos.sh`.
-
-
 ```mermaid
 graph TD
     Raw[Raw CyTOF Data] --> Pre[DataTidyACSCyTOFPreprocess]
@@ -180,6 +160,40 @@ graph TD
     
     Analysis --> Report[ReportACSCyTOFTCells]
 ```
+
+---
+
+## 📂 Obtaining Raw Data
+
+This compendium coordinates the *code* required for the analysis. However, the **raw data** (such as FCS files, clinical metadata, and intermediate datasets) is not stored in this repository due to size and privacy constraints.
+
+Each individual repository contains specific instructions on how to obtain the input data required for its part of the pipeline.
+
+*   **Clinical Data:** See the `README` in **DataTidyACSClinical**.
+*   **Raw CyTOF Files:** See the `README` in **DataTidyACSCyTOFPreprocess**.
+*   **Intermediate Objects:** Downstream repositories (like `AnalysisACSCyTOFTCells`) may require processed objects from upstream steps. These dependencies are documented in their respective `README` files.
+
+Please consult the documentation within each specific sub-repository for access instructions and download links.
+
+---
+
+## Working with the project in VS Code
+
+This repository provides VS Code workspace files (`.code-workspace`) that open multiple repositories at once in a single, multi-root workspace.
+
+The most relevant workspaces are:
+
+* **Primary**
+  Includes only the repositories and branches used for the main analysis.
+
+* **FlowSOM **
+  Includes only the repositories and branches used for the FlowSOM-based analysis.
+
+* **EntireProject**
+  Includes all repositories cloned via `repos.list`.
+
+These workspaces assume the directory structure created by `scripts/setup-repos.sh`.
+
 ---
 
 ## Reproducible execution using the project container
