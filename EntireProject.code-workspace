@@ -13,7 +13,10 @@
       "path": "../DataTidyACSCyTOFPreprocess"
     },
     {
-      "path": "../DataTidyACSCyTOFFAUST"
+      "path": "../DataTidyFAUSTPrimary"
+    },
+    {
+      "path": "../DataTidyFAUSTFlowSOM"
     },
     {
       "path": "../stimgate"
