@@ -1,139 +1,243 @@
 # Compendium of ACS CyTOF T Cells
 
-## Instructions for running
+## Repository structure and how to obtain the project code
 
-### Initial configuration
+This repository acts as a **compendium and entry point** for the ACS CyTOF T cell analysis.
+It does not itself contain all analysis code.
+Instead, it coordinates a collection of repositories that together implement the full data processing, analysis, and reporting workflow.
 
-In all cases, make sure that you have the environment variable `GH_TOKEN` set up to a GitHub token with `repo`, `user` and `workflow` scopes
-from a GitHub account that has access to the following repositories:
+The canonical list of required repositories, including the specific branches used for each analysis, is defined in `repos.list`.
 
-- SATVILab/DataTidyACSClinical
-- SATVILab/DataTidyACSCyTOFPreprocess
-- SATVILab/DataTidyACSCyTOFFAUST
-- SATVILab/PipelineDataACSCytokines
-- SATVILab/DataTidyACSCyTOFCytokinesTCells
-- SATVILab/PipelineAnalysisACS
-- SATVILab/AnalysisACSCyTOFTCells
-- SATVILab/ReportACSCyTOFTCells
+### Cloning this repository
 
-#### Seting up `GH_TOKEN` environment variable
+First, clone this repository in the usual way:
 
-First, you need to create the token (Getting secret) and then you need to make it available in your environment (GitHub Codespaces, GitPod or HPC).
-
-**Getting secret**
-
-- Go to `https://github.com/settings/tokens`
-  - Click `Generate new token`
-  - Click `Generate new token (classic)`
-  - Name the token something meaningful
-  - Select the following scopes:
-    - `repo`
-    - `user`
-    - `workflow`
-  - Click `Generate token`
-
-**GitHub Codespaces**: Set up `GH_TOKEN` in the Codespaces settings
-
-- Go to `https://github.com/settings/codespaces`
-- On the right of `Codespaces Secrets`, click `New secret`
-- Name the secret `GH_TOKEN`
-- Paste the token into the `Value` field
-  - Get this
-
-### GitHub Codespaces
-
-- *Open Codespace*:
-  - Go to `https://github.com/SATVILab/CompACSCyTOFTCells`
-  - Click green `Code` button
-  - Click green `Create codespace on main` button
-  - Wait for set-up
-- Switch to VS Code instance:
-  - Open a VS Code workspace:
-    - Press `Ctrl + Shift + P`
-    - Choose `File: Open Workspace from File...`
-    - Open workspace with repos of interest:
-      - `EntireProject.code-workspace`: Contains all repos
-      - `DataTidy.code-workspace`: Contains data-processing repos
-      - `Analysis.code-workspace`: Contains analysis repos
-
-### HPC
-
-- Open *terminal*: Open an interactive terminal on a compute node
-- *Ensure that `apptainer` is loaded*
-  - Run `apptainer --version` to check
-    - If it's not, then you'll need to load it somehow (e.g. `module load apptainer`). Ask your system administrator (or hopefully-more-knowledgeable colleague) if you're not sure how to do this.
-- *Clone this repository*:
-  - Navigate to directory where you want to clone this repo and all other project repos.
-    - Note that there are many project repos, so it would be good to do this in its own directory.
-      - We create `ProjectACSCyTOFTCells` folder for this purpose.
-    - Inside that folder, run `git clone https://github.com/SATVILab/CompACSCyTOFTCells.git`
-- *Open terminal inside repo*:
-  - Run `cd <path/to/CompACSCyTOFTCells>`
-- *Download the container image*:
-  - Using a terminal: Run `.src/hpc/download-apptainer.sh`.
-  - Using GUI: Go to `https://github.com/SATVILab/CompACSCyTOFTCells/releases/tag/r423` and download `r423.sif` to `sif` folder (run `mkdir -p sif` to create folder first).
-- *Open VS Code using a remote tunnel into container*: Run `apptainer exec sif/r423.sif code tunnel --accept-server-license-terms`
-    - Follow instructions, up until you then have a browser tab open to a VS Code instance
-- Switch to VS Code instance:
-  - Open a VS Code workspace:
-    - Press `Ctrl + Shift + P`
-    - Choose `File: Open Workspace from File...`
-    - Open workspace with repos of interest:
-      - `EntireProject.code-workspace`: Contains all repos
-      - `DataTidy.code-workspace`: Contains data-processing repos
-      - `Analysis.code-workspace`: Contains analysis repos
-
-### Local (Linux)
-
-This is if you have Linux set up locally (perhaps using Windows Subsystem for Linux).
-
-In this case, the instructions are basically the same as for the HPC.
-
-- *Open a terminal*
-- *Clone this repository*:
-  - Navigate to directory where you want to clone this repo and all other project repos.
-    - Note that there are many project repos, so it would be good to do this in its own directory.
-      - We create `ProjectACSCyTOFTCells` folder for this purpose.
-    - Inside that folder, run `git clone https://github.com/SATVILab/CompACSCyTOFTCells.git`
-- *Ensure that `apptainer` is installed*
-  - Run `apptainer --version` to check
-    - If it's not, then you can run `./src/hpc/install-apptainer.sh` to install apptainer.
-- *Open terminal inside repo*:
-  - Run `cd <path/to/CompACSCyTOFTCells>`
-- *Download the container image*:
-  - Using a terminal: Run `.src/hpc/download-apptainer.sh`.
-  - Using GUI (if terminal doesn't work): Go to `https://github.com/SATVILab/CompACSCyTOFTCells/releases/tag/r423` and download `r423.sif` to `sif` folder (run `mkdir -p sif` to create folder first).
-- *Open VS Code using a remote tunnel into container*: Run `apptainer exec sif/r423.sif code tunnel --accept-server-license-terms`
-    - Follow instructions, up until you then have a browser tab open to a VS Code instance
-- Switch to VS Code instance:
-  - Open a VS Code workspace:
-    - Press `Ctrl + Shift + P`
-    - Choose `File: Open Workspace from File...`
-    - Open workspace with repos of interest:
-      - `EntireProject.code-workspace`: Contains all repos
-      - `DataTidy.code-workspace`: Contains data-processing repos
-      - `Analysis.code-workspace`: Contains analysis repos
-
-### Local (other)
-
-In this case, this repository is not particularly useful to you so you might as well just clone individual repos and open them inside VS Code/RStudio.
-- Well, this is not entirely true - you could clone this repo and then use the workspace files it provides. But that's not amazingly useful.
-
-So, for this approach:
-
-- Create a project folder to contain all the repos.
-- Clone all the repos to that project folder. You can use this script:
-
+```bash
+git clone https://github.com/SATVILab/CompACSCyTOFTCells.git
+cd CompACSCyTOFTCells
 ```
-git clone https://github.com/SATVILab/DataTidyACSClinical.git
-git clone https://github.com/SATVILab/DataTidyACSCyTOFPreprocess.git
-git clone https://github.com/SATVILab/DataTidyACSCyTOFFAUST.git
-git clone https://github.com/SATVILab/PipelineDataACSCytokines.git
-git clone https://github.com/SATVILab/DataTidyACSCyTOFCytokinesTCells.git
-git clone https://github.com/SATVILab/PipelineAnalysisACS.git
-git clone https://github.com/SATVILab/AnalysisACSCyTOFTCells.git
-git clone https://github.com/SATVILab/ReportACSCyTOFTCells.git
+
+This repository should be treated as the **anchor directory** for the project. All other project repositories will be cloned **alongside it**, not inside it.
+
+### Cloning all required project repositories
+
+All required repositories and their corresponding branches are specified in `repos.list`. This file defines:
+
+* Which repositories are needed
+* Which branch of each repository should be used
+* The directory name each repository should be cloned into
+
+A setup script is provided to clone all repositories exactly as specified.
+
+#### Running the setup script
+
+From within the `CompACSCyTOFTCells` directory, run:
+
+```bash
+scripts/setup-repos.sh
 ```
+
+Important behaviour to note:
+
+* Repositories are cloned **one directory level above** `CompACSCyTOFTCells`
+* For example, if your directory layout is:
+
+  ```
+  ProjectACSCyTOFTCells/
+    ├─ CompACSCyTOFTCells/
+  ```
+
+  then after running the script you will have:
+
+  ```
+  ProjectACSCyTOFTCells/
+    ├─ CompACSCyTOFTCells/
+    ├─ DataTidyACSCyTOFFAUST/
+    ├─ AnalysisACSCyTOFTCells/
+    ├─ ReportACSCyTOFTCells/
+    └─ ...
+  ```
+
+This layout is intentional and is assumed by the VS Code workspaces provided in this repository.
+
+The script is compatible with:
+
+* macOS and Linux
+* Git Bash on Windows
+* Bash 3.2 and later
+
+The only requirement is that Git is installed and available on the command line.
+
+---
+
+## Overview of project repositories
+
+Below is a high-level description of the main repositories used in the ACS CyTOF T cell project, grouped by function.
+
+### Data tidying and preprocessing
+
+**DataTidyACSClinical**
+
+Processes clinical metadata, including TB-related clinical variables.
+
+**DataTidyACSCyTOFPreprocess**
+
+Handles preprocessing of raw CyTOF data, from instrument output through to live, DNA-positive, singlet cells.
+
+**DataTidyACSCyTOFFAUST**
+
+Runs FAUST on preprocessed CyTOF data.
+This repository is used in two branches:
+
+* `primary`: the original FAUST run used for the main analysis
+* `flowsom`: a later FAUST run used for FlowSOM-based analyses. It has identical parameters to the `primary` run, but was re-run to re-generate FCS files of FAUST-annotated cells for FlowSOM input.
+
+The FAUST output provides:
+
+* FAUST counts for downstream statistical modelling
+* Cell-level annotations, including lineage labels such as CD4, CD8, and γδ T cells, as well as associated FCS files
+* Detailed FAUST phenotypes used in later analyses
+
+### Cytokine data processing
+
+**PipelineDataACSCytokines**
+
+Contains shared functions used to process cytokine data.
+
+**DataTidyACSCyTOFCytokinesTCells**
+
+Applies the `StimGate` algorithm to classify cytokine-positive cells.
+This is done separately for:
+
+* CD4 T cells
+* CD8 T cells
+* γδ T cells
+
+Both `primary` and `flowsom` branches are used, corresponding to the FAUST runs described above.
+Outputs include cytokine-positive cell counts at both lineage and detailed phenotype levels, as well as FCS files of cytokine-positive cells for each lineage.
+
+### Analysis
+
+**PipelineAnalysisACS**
+
+Provides reusable analysis functions used across modelling and downstream analyses.
+
+**AnalysisACSCyTOFTCells**
+
+Implements the statistical analyses and model fitting for the project.
+This repository has:
+
+* `primary` branch for the main analysis
+* `flowsom` branch for FlowSOM-based analyses
+
+### Reporting
+
+**ReportACSCyTOFTCells**
+
+Generates figures and tables used in the publication.
+Again, both `primary` and `flowsom` branches are provided, corresponding to the respective analyses.
+
+### Legacy and unused repositories
+
+Some repositories may appear in the organisation but are not part of the current analysis workflow, including:
+
+* Older versions of the stimgate package
+* Experimental or deprecated cytokine storage repositories
+
+These are not required for reproducing the analyses described here.
+
+---
+
+## Working with the project in VS Code
+
+This repository provides VS Code workspace files that open multiple repositories at once in a single, multi-root workspace.
+
+The most relevant workspaces are:
+
+* **Primary analysis workspace**
+  Includes only the repositories and branches used for the main analysis.
+
+* **FlowSOM analysis workspace**
+  Includes only the repositories and branches used for the FlowSOM-based analysis.
+
+* **Entire project workspace**
+  Includes all repositories cloned via `repos.list`.
+
+These workspaces assume the directory structure created by `scripts/setup-repos.sh`.
+
+
+```mermaid
+graph TD
+    Raw[Raw CyTOF Data] --> Pre[DataTidyACSCyTOFPreprocess]
+    Clinical[Clinical Data] --> TidyClin[DataTidyACSClinical]
+    
+    Pre --> FAUST[DataTidyACSCyTOFFAUST]
+    FAUST --> Cyto[DataTidyACSCyTOFCytokinesTCells]
+    
+    TidyClin --> Analysis[AnalysisACSCyTOFTCells]
+    FAUST --> Analysis
+    Cyto --> Analysis
+    
+    Analysis --> Report[ReportACSCyTOFTCells]
+```
+---
+
+## Reproducible execution using the project container
+
+A pre-built container image is provided to ensure a fully reproducible execution environment for all data processing, analysis, and reporting steps.
+
+The image is available from GitHub Container Registry:
+
+```bash
+docker pull ghcr.io/satvilab/compacscytoftcells:latest
+```
+
+The container definition is given in `.devcontainer/devcontainer.json`. It provides a consistent Linux environment with all system dependencies required to run the R code in this project.
+
+All data-processing, analysis, and reporting repositories use `renv` for R package management.
+The container image includes a populated `renv` cache containing the R packages required by these repositories, which substantially reduces installation time and ensures consistency across machines.
+
+### Recommended ways to use the container
+
+In practice, there are two recommended ways to work with the project using this container.
+
+### Option A: VS Code devcontainer (recommended for local development)
+
+This is the simplest approach for most users.
+
+1. Clone the `CompACSCyTOFTCells` repository and set up the project repositories as described above.
+2. Open the `CompACSCyTOFTCells` repository in VS Code.
+3. When prompted, choose **“Open this repository in a devcontainer”**.
+
+VS Code will automatically pull the container image and start a development environment inside it. All cloned repositories can then be accessed within the container, and R sessions will use the preconfigured `renv` cache.
+
+This approach requires Docker to be installed locally, but does not require any manual Docker commands.
+To install Docker locally, follow the instructions for your operating system.
+It is straightforward for Linux and macOS, whilst Windows users will need to first setup Windows Subsystem for Linux (WSL2) before installing Docker Desktop.
+
+### Option B: Apptainer on HPC systems (recommended for running FAUST)
+
+On high-performance computing systems, Docker is often not available for security reasons.
+In these cases, the same container can be used via Apptainer (formerly Singularity).
+
+First, pull the container image and convert it to a `.sif` file:
+
+```bash
+apptainer pull sif/compacscytoftcells.sif \
+  docker://ghcr.io/satvilab/compacscytoftcells:latest
+```
+
+It is recommended to store the image in a dedicated directory such as `sif/`, as many HPC systems impose quotas or policies on home directories.
+
+You can then run commands inside the container using:
+
+```bash
+apptainer run sif/compacscytoftcells.sif
+```
+
+This allows the full analysis pipeline to be executed in the same reproducible environment as the devcontainer, without requiring Docker.
+
+---
 
 ## 📄 Citation
 
@@ -171,3 +275,7 @@ If you use this specific software implementation in your analysis, please cite:
   url = {https://github.com/SATVILab/CompACSCyTOFTCells}
 }
 ```
+
+## License
+
+This code is licensed under the Apache version 2.0 license to the University of Cape Town. See the [LICENSE](LICENSE) file for details.
