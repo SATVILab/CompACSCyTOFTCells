@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Rodo"
+    given-names: "Miguel Julio"
+    affiliation: "South African Tuberculosis Vaccine Initiative, University of Cape Town; Department of Statistical Sciences, University of Cape Town"
+  - family-names: "Scriba"
+    given-names: "Thomas Jens"
+    affiliation: "South African Tuberculosis Vaccine Initiative, Institute of Infectious Disease and Molecular Medicine, Division of Immunology, Department of Pathology, University of Cape Town"
+title: "Infrastructure repository for ACS CyTOF T Cells analysis"
+version: 1.0.0
+date-released: 2026-01-28
+license: Apache-2.0
