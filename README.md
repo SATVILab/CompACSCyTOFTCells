@@ -186,7 +186,7 @@ The most relevant workspaces are:
 * **Primary**
   Includes only the repositories and branches used for the main analysis.
 
-* **FlowSOM **
+* **FlowSOM**
   Includes only the repositories and branches used for the FlowSOM-based analysis.
 
 * **EntireProject**
